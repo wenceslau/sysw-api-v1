@@ -1,0 +1,875 @@
+lbl_a_tabela_possui_d_n_e_p_a###(A tabela possui dados, não é possível alterar.)###(You can’t make changes to this table, it already has data.)###(La tabla tiene datos, no es posible cambiarla.)
+msg_arquivo_invalido_a_c_[%s]_n_c_a_n_a_d_o###Arquivo inválido! A coluna [%s] não corresponde a nenhum atributo do objeto.###Invalid file! Column [%s] doesn’t correspond to any attributes of the object.###¡Archivo inválido! La columna [%s] no equivale a ningún atributo del objeto
+msg_conexao_realiza_com_s_d_h_d_b_d_d_[%s]###Conexão realizada com sucesso! Data/hora do banco de dados: %s###Connected! Database time: %s###¡Conexión realizada com éxito! Fecha/hora de la base de datos: %s
+msg_nao_foi_encontrado_s_n_c_d_s###Não foi encontrado um setor na sessão!###Sector wasn’t found in the session context!###¡No se encontró un sector en el contexto de la sesión!
+msg_nao_foi_encontrado_u_n_c_d_s###Não foi encontrado um usuário na sessão!###User wasn’t found in the session context!###¡No se encontró un usuario en el contexto de la sesión!
+lbl_deseja_clonar_o_r_i###Deseja clonar o registro ID?###Do you want to clone the ID record?###¿Desea clonar el registro de ID?
+lbl_deseja_deletar_o_r_i###Deseja deletar o registro ID?###Do you want to delete the ID record?###¿Desea eliminar el registro de ID?
+lbl_na_pagina###Na página?###On the page?###¿En la pagina?
+lbl_esperar_retorno_do_u###Esperar retorno do usuário?###Wait for user entry?###¿Esperar comentarios de los usuarios?
+lbl_deseja_exportar_os_d_###Deseja exportar os dados?###Do you want to export the data?###¿Quiere exportar los datos?
+lbl_deseja_resetar_a_s_d_u###Deseja redefinir a senha do usuário?###Do you want to reset the user’s password?###¿Quiere restablecer la contraseña de usuario?
+lbl_iniciando_as###Iniciando em###Starting at###A partir de
+msg_a_[%]_[%s]_f_e###A %s %s foi editada.###%s %s was edited.###La %s%s ha sido editada.
+lbl_aberta###Aberta###Open###Abierta
+lbl_acesso###Acesso###Access###Acceso
+lbl_acao###Ação###Action###Acción
+lbl_atualizacao_de_tela###Atualizar tela###Refresh###Actualizar
+lbl_adicionado###Adicionado###Added###Adicionado
+lbl_aviso###Aviso###Warning###Aviso
+lbl_escopo###Escopo###Scope###Alcance
+lbl_scopo###Escopo###Scope###Alcance
+lbl_adicionar###Adicionar###Add###Añadir
+lbl_aplicacoes###Aplicações###Applications###Aplicaciones
+lbl_arquivo###Arquivo###File###Archivo
+lbl_atalho###Atalho###Shortcut###Atajo
+lbl_atributos###Atributos###Attributes###Atributos
+lbl_autenticar###Autenticar###Authenticate###Autenticar
+lbl_base_de_dados###Base de dados###Database###Base de datos
+lbl_base_de_dados_setor###Base de dados do setor###Sector database###Base de datos del sector
+lbl_pesquisar_por_permissao###Pesquisar por permissão###Search by permission###Buscar por permiso
+lbl_pesquisar_por_chave###Pesquisar por chave###Search by key###Buscar por clave
+lbl_pesquisar_por_descricao###Pesquisar por descrição###Search by description###Buscar por descripción
+lbl_pesquisar_por_status###Pesquisar por status###Search by status###Buscar por estado
+lbl_pesquisar_por_nome###Pesquisar por nome###Search by name###Buscar por nombre
+lbl_pesquisar_por_setor###Pesquisar por setor###Search by sector###Buscar por sector
+lbl_pesquisar_por_tabela_d###Pesquisar por tabela de dados###Search by data table###Buscar por tabla de datos
+lbl_pesquisar_por_usuario###Pesquisar por usuário###Search by user###Buscar por usuario
+lbl_pesquisar_por_perfil###Pesquisar por perfil###Search by profile###Buscar por perfil
+lbl_pesquisar_por_unidade_n###Pesquisar por unidade negócio###Search by business unit###Buscar por unidad de negocio
+lbl_alterar_senha###Alterar senha###Change password###Cambiar contraseña
+lbl_alterar_chave###Alterar chave###Change key###Cambiar clave
+lbl_alterar###Alterar###Change###Cambiar
+lbl_caminho###Caminho###Path###Camino
+lbl_fechar###Fechar###Close###Cerrar
+lbl_fechada###Fechada###Closed###Cerrada
+lbl_fechar_ao_salvar###Fechar ao salvar###Close on save###Cerrar al guardar
+lbl_chave_conexao###Chave de conexão###Connection key###Clave de conexión
+lbl_chave_primaria###Chave primária###Primary key###Clave primaria
+lbl_clonar###Clonar###Clone###Clonar
+lbl_clonar_objeto_para_o_s###Clonar objeto para outro setor###Clone object to another sector###Clonar objeto por sector
+lbl_codigo_sql###Código SQL###SQL code###Código SQL
+lbl_coluna###Coluna###Column###Columna
+lbl_coluna_chave###Coluna-chave###Key column###Columna clave
+lbl_coluna_de_dados_a###Coluna de dados associada###Linked data column###Columna de datos asociada
+lbl_colunas_chave###Colunas chave###Key columns###Columnas clave
+lbl_inicio###Início###Start###Comienzo
+lbl_complemento###Complemento###Complement###Complemento
+lbl_testar_conexao###Testar conexão###Run a connection test###Testar conexión
+lbl_conxexoes_banco_de_d_u_s###Conexões de banco de dados - Usuário/Setor###Database connections - User/Sector###Conexiones de base de datos - Usuario/Sector
+lbl_conexoes_servico_de_d###Conexões de serviço de dados###Data service connections###Conexiones de servicio de datos
+lbl_configuracao###Configuração###Settings###Configuración
+lbl_confirmacao###Confirmação###Confirmation###Confirmación
+lbl_confirmar###Confirmar###Confirm###Confirmar
+lbl_confirmar_senha###Confirmar senha###Confirm password###Confirmar contraseña
+lbl_confirmar_exportacao###Confirmar exportação###Confirm export###Confirmar exportación
+msg_consulta_para_unidade_d_n_[%s]###Consulta para a Unidade de Negócio %s ###Query for business unit %s###Consulta para la Unidad de Negocio ''%s ''
+lbl_consulta_sql###Consulta SQL###SQL query###Consulta SQL
+lbl_conteudo###Conteúdo###Content###Contenido
+lbl_conteudo_do_arquivo###Conteúdo do arquivo###File content###Contenido del archivo
+lbl_contem_as_permissoes_d_a_d_u###Contém as permissões de acesso do usuário###Contains user access permissions###Contiene permisos de acceso de usuario
+lbl_senha###Senha###Password###Contraseña
+lbl_senha_atual###Senha atual###Current password###Contraseña actual
+lbl_senha_alterada_com_s###Senha alterada com sucesso###Password changed###Contraseña alterada con éxito
+lbl_senha_invalida###Senha inválida###Invalid password###Contraseña inválida
+lbl_executar_a_cada_d###Executar a cada (dias)###Run every (days)###Ejecutar cada (días)
+lbl_executar_a_cada_s###Executar a cada (semanas)###Run every (weeks)###Ejecutar cada (semanas)
+msg_email_enviado_com_s_p_[%s]###E-mail enviado com sucesso para %s###Email was sent to [%s]###Correo electrónico enviado con éxito a [%s]
+msg_email_enviado_com_s###E-mail enviado com sucesso###Email sent ###Correo electrónico enviado con éxito
+lbl_credencial###Credencial###Credentials###Credenciales
+lbl_dados_atualizados_com_s###Dados alterados com sucesso###Data was changed ###Datos alterados con éxito
+lbl_dados_atualizado_com_s###Dados atualizados com sucesso###Data was updated###Datos actualizados con éxito
+lbl_importar_dados###Importar dados###Import data###Importar datos
+lbl_dados_deletado_c_s###Dados deletados com sucesso ###Data was deleted###Datos eliminados con éxito
+lbl_dados_inserido_com_s###Dados inseridos com sucesso###Data was inserted###Datos insertados con éxito 
+lbl_direitos_de_copia###Direitos de cópia###Copyright###Derechos de copia
+lbl_desconectar###Desconectar###Disconnect###Desconectar
+lbl_descricao###Descrição###Description###Descripción
+lbl_dia###Dia###Day###Día
+lbl_dias_da_semana###Dias da semana###Days of the week###Días de la semana
+lbl_endereco_email_para_e_d_a_u###Endereço de e-mail para envio de informações ao usuário###Email address to send information to users###Dirección de correo electrónico para enviar información al usuario
+lbl_endereco_ip###Endereço IP###IP address###Dirección IP
+lbl_diretorio###Diretório###Directory###Directorio
+lbl_disponiveis###Disponíveis###Available###Disponibles
+lbl_disponivel###Disponível###Available###Disponible
+lbl_editando_registro_id###Editando registro ID###Editing ID record###Editando ID de registro
+lbl_editar###Editar###Edit###Editar
+lbl_executar_a_cada_m###Executar a cada (mês)###Run every (month):###Ejecutar cada (mes)
+lbl_executar_de_minutos###Executar a cada (minutos):###Run every (minutes):###Ejecutar cada (minutos):
+msg_o_[%s]_[%s]_f_c1###O %s %s foi clonado.###%s %s was cloned.###El %s %s ha sido clonado.
+msg_o_[%s]_[%s]_f_c###O %s %s foi criado.###%s %s was created.###El %s %s ha sido creado.
+msg_o_[%s]_[%s]_f_e###O %s %s foi editado.###%s %s was edited.###El %s %s ha sido editado.
+msg_o_[%s]_[%s]_f_a###O %s %s foi apagado.###%s %s was deleted.###El %s %s ha sido eliminado.
+msg_o_campo_[%s]_n_p_c_c_e###O campo [%s] não pode conter caracteres especiais.###Field [%s] can’t contain special characters.###El campo [%s] no puede contener caracteres especiales.
+msg_o_campo_[%s]_n_p_s_v###O campo [%s] não pode estar vazio.###Field [%s] can’t be empty.###El campo [%s] no puede estar vacío.
+msg_o_contexto_da_a_e_n###O contexto da aplicação é nulo.###The application context is null.###El contexto de la aplicación es nulo.
+lbl_o_estilo_de_f###Estilo de fonte###Font style###Estilo de fuente
+msg_o_intervalo_solicitado_e_a_a_u_i_j_f_p_e_s_a_d_f_d_v_e_o###O intervalo solicitado é anterior a um intervalo já fechado. Nesta situação, a data final da vigência é obrigatória.###The requested interval occurs before a closed interval. In this case, the end date of the period of validity is mandatory.###El intervalo solicitado es anterior a un intervalo cerrado. Para esta situación, la fecha de finalización es obligatoria.
+msg_o_objeto_[%s]_f_c_d_s_[%s]_p_o_s_[%s]###O objeto [%s] foi clonado do setor [%s] para o setor [%s].###The object [%s] has been cloned from sector [%s] to sector [%s].###El objeto [%s] se ha clonado del sector [%s] al sector [%s].
+msg_o_objeto_nao_p_s_d_v_c_o_m_d_s###O objeto não possui Setor definido. Verifique com o mantenedor do sistema###The object doesn’t have a defined sector. Check with the system maintenance team.###El objeto no tiene un Sector definido. Consulte al mantenedor del sistema
+lbl_o_objeto_somente_s_c_s_h_u_b_d_d_a_a_s###O objeto só será criado se houver uma base de dados associada ao setor.###The object can only be created if there’s a database linked to the sector.###El objeto solo se creará si existir un sector asociado de base de datos.
+msg_o_periodo_[%s_%s]_sobrepoe_a_d_f_[%s]_d_r_i_[%s]###O período [%s , %s] sobrepõe a data fim [%s] do registro ID [%s].###This interval [%s , %s] overlaps the end date [%s] of the ID record [%s].###El período [%s,%s] se superpone a la fecha de finalización [%s] del registro de ID [%s].
+msg_o_periodo_[%s_%s]_sobrepoe_a_d_i_[%s]_d_r_i_[%s]###O período [%s , %s] sobrepõe a data início [%s] do registro ID [%s]###This interval [%s , %s] overlaps the start date [%s] of the ID record [%s].###El período [%s,%s] se superpone a la fecha de inicio [%s] del registro de ID [%s]
+msg_os_setor_[%s]_n_t|_s_d_d_d_p_p_c_t###O setor [%s] não tem serviço de dados definido para poder criar tabelas###Sector [%s] doesn’t have a defined data service to be able to create tables.###El sector [%s] no tiene un servicio de datos definido para poder crear tablas
+msg_o_setor_e_a_l_s_n_p_o_l###O setor e a linguagem são necessários para o login.###Sector and language are required to log in.###El sector y el lenguaje son necesarios para iniciar sesión.
+msg_o_servico_de_e_c_o_i_[%s]_e_i###O serviço de e-mail com o identificador [%s] está inativo###Email service with the identifier [%s] is inactive.###El servicio de correo electrónico con el identificador [%s] está inactivo
+msg_data_service_e_o_p_e_d_e###O serviço de dados é obrigatório para o envio do e-mail.###Data service is mandatory to send emails.###El servicio de datos es obligatorio para enviar el correo electrónico.
+msg_o_servico_de_d_n_f_i###O serviço de dados não foi informado.###Data service wasn’t informed.###El servicio de datos no fue informado.
+msg_o_valor_[%s]_d_a_[%s]_n_c_a_n_r_n_t_[%s]_d_o_r###O valor [%s] do atributo [%s] não corresponde a nenhum registro na tabela [%s] do objeto referenciado.###The value [%s] of the attribute [%s] doesn’t match any records in the table [%s] of the linked object.###El valor [%s] del atributo [%s] no coincide con ningún registro en la tabla [%s] del objeto referido.
+msg_o_valor_[%s]_d_a_[%s]_e_n_f_i###O valor [%s] do atributo [%s] está em um formato inválido.###The value [%s] of the attribute [%s] is in an invalid format.###El valor [%s] para el atributo [%s] está en formato inválido.
+lbl_elemento###Elemento###Element###Elemento
+lbl_apagar###Apagar###Delete###Eliminar
+lbl_deletar_dados###Apagar dados###Delete data###Eliminar datos
+lbl_deletar_todos_os_d_d_o###Deletar todos os dados do deste objeto###Delete all data from this object###Eliminar todos los datos de este objeto
+lbl_email###E-mail###Email###Correo electrónico
+msg_no_setor_[%s]_p_o_t_d_o_[%s]###No setor %s para o tipo de objeto %s###On sector %s for object type %s###En el sector %s para el tipo de objeto %s
+lbl_enviar###Enviar###Send###Enviar
+lbl_erro###Erro###Error###Error
+msg_falha_ao_atualizar_[%s]###Falha ao atualizar %s###Failed to update %s###Error al actualizar %s
+msg_erro_ao_adicionar_o_a_n_r_h###Erro ao adicionar o arquivo no response HTTP###Error when adding file to HTTP response###Error al agregar archivo a la respuesta HTTP
+msg_falha_ao_pesquisar_dados_[%s]###Falha ao pesquisar dados %s###Failed to search data %s###Error al buscar datos %s
+msg_falha_ao_clonar_[%s]###Falha ao clonar %s###Failed to clone %s###Error al clonar %s
+msg_falha_ao_criar_[%s]###Falha ao criar %s###Failed to create %s###Error al crear %s
+msg_falha_ao_deletar_[%s]###Falha ao deletar %s###Failed to delete %s###Error al eliminar %s
+msg_falha_ao_listar_dados_[%s]###Falha ao listar dados %s###Failed to list data %s###Error al enumerar los datos %s
+msg_falha_ao_filtrar_dados_[%s]###Falha ao filtrar dados %s###Failed to filter data %s###Error al filtrar datos %s
+msg_falha_ao_construir_q_d_d_d_t###Falha ao construir consulta de dados da tabela###Failed to build table data query###Error al generar consulta de datos de la tabla
+msg_erro_ao_identificar_c_c_c###Erro ao identificar colunas com chave###Error identifying key columns###Error al identificar columnas con clave
+msg_erro_ao_identificar_c_p_o_l###Erro ao identificar colunas para o rotulo###Error identifying columns for the label###Error al identificar columnas para la etiqueta
+msg_falha_ao_importar_d_p_o_o_[%s]###Falha ao importar dados para o objeto %s###Failed to import data to object %s###Error al importar datos al objeto %s
+msg_falha_ao_importar_a_d_d###Falha ao importar arquivo de dados###Failed to import data file###Error al importar el archivo de datos
+msg_falha_ao_inserir_[%s]###Falha ao inserir %s###Failed to insert %s###Error al insertar %s
+msg_falha_ao_inserir_dados_[%s]_[%s]###Falha ao inserir dados %s. [%s]###Failed to insert data %s. [%s]###Error al insertar datos %s. [%s]
+msg_erro_ao_realizar_t_d_c###Erro ao realizar teste de conexão###Error when performing connection test###Error al realizar la prueba de conexión
+msg_falha_ao_recuperar_[%s]###Falha ao recuperar %s###Failed to recover %s###Error al recuperar %s
+msg_falha_ao_truncar_d_[%s]###Falha ao truncar dados %s###Failed to truncate data %s###Error al truncar datos %s
+lbl_espanhol###Espanhol###Spanish###Español
+lbl_aguarde###Aguarde###Wait###Espere
+lbl_esta_operacao_pode_d_a_i###Essa operação pode demorar alguns instantes.###This operation may take a few moments.###Esta operación puede demorar unos minutos.
+lbl_status_ultima_execucao###Status da última execução###Last run status###Estado de la última ejecución
+msg_este_atributo_possui_c_r_a_c_a_d_d###Esse atributo possui uma chave. Remova a chave antes de apagá-lo.###This attribute has a key. Remove the key before deleting it.###Este atributo tiene una clave. Retire la clave antes de eliminarlo.
+msg_este_atributo_possui_r_c_o_o_[%s]_e_n_p_s_m###Esse atributo possui relacionamento com outro(s) objeto(s) [%s]. Ele não pode ser modificado.###You can’t modify this attribute, it’s linked to another object [%s].###Este atributo tiene una relación con otros objetos [%s]. No puede ser modificado.
+msg_essa_alteracao_de_a_e_u_m_d_p_q_n_e_p_p_u_o_q_c_r###Essa alteração de atributo envolve uma mudança de propriedade que não é permitida para um objeto que contém registros.###This attribute change involves a change of ownership which isn’t allowed for an object that contains records.###Este cambio de atributo implica un cambio de propiedad que no está permitido para un objeto que contiene registros.
+msg_esse_objeto_somente_p_s_c_o_e_n_s_d###Esse objeto só pode ser criado ou editado no setor Default.###This object can only be created or edited in the Default sector.###Este objeto solo se puede crear o editar en el sector predeterminado.
+msg_este_objeto possui_r_q_e_u_n_r_c_o_o_e_n_p_s_d###Esse objeto possui um ou mais registros que são usados no relacionamento com outros objetos e não podem ser deletados.###This object has one or more records that are used to link other objects, so it can’t be deleted.###Este objeto tiene registros que se usan en la relación con otros objetos y no se pueden eliminar.
+msg_este_objeto_possui_u_r_c_o_[%s]_c_a_n_f_i###Esse objeto possui um relacionamento com outro objeto [%s] que ainda não foi importado.###This object is linked to an object [%s] which hasn’t been imported yet.###Este objeto tiene una relación con un objeto [%s] que aún no se ha importado.
+msg_este_registro_e_u_n_r_c_o_o_n_p_s_d###Esse registro não pode ser deletado, pois é usado no relacionamento com outros objetos.###This record can’t be deleted, it’s used in objects to which this one is linked.###Este registro se usa en la relación con otros objetos. No se puede eliminar.
+msg_este_usuario_esta_i###Esse usuário está inativo.###This user is inactive.###Este usuario está deshabilitado.
+lbl_rotulo###Rótulo###Label###Etiqueta
+lbl_sucesso###Sucesso###Success###Éxito
+lbl_exportar###Exportar###Export###Exportar
+lbl_exportar_xlsx###Exportar###Export###Exportar
+lbl_data###Data###Date###Fecha
+lbl_data_atualizacao###Data da atualização###Update date###Fecha de actualización
+lbl_data_alteracao###Data da alteração###Change date###Fecha de cambio
+lbl_data_criacao_base_d_d###Data da criação da base de dados###Database creation date###Fecha de creación de la base de datos
+lbl_data_criacao_da_c###Data da criação da coluna###Column creation date###Fecha de creación de la columna
+lbl_data_criacao_tabela_d_d###Data da criação da tabela de dados###Table creation date###Fecha de creación de la tabla de datos
+lbl_data_de_inicio###Data de início###Start date###Fecha de inicio
+lbl_data_logon###Data Logon###Logon date###Fecha de inicio de sesión
+lbl_data_cadastro###Data do cadastro###Register date###Fecha de registro
+lbl_data_ultima_execucao###Data da última execução###Last run date###Fecha de última ejecución
+lbl_data_fim###Data final###End date###Fecha final
+lbl_data_hora_que_a_t_d_d_f_c###Data e hora em que a tabela de dados foi criada.###Table creation timestamp###Fecha y hora de creación de la tabla de datos.
+lbl_filtrar###Filtrar###Filter###Filtrar
+lbl_filtrar_em_todos_c_a_d###Filtrar em todos os campos ao digitar###Filter all fields when typing###Filtrar en todos los campos al escribir
+lbl_filtrar_ao_pressionar_e###Filtrar em todos os campos ao pressionar o enter###Filter all fields by pressing enter###Filtrar en todos los campos presionando enter
+lbl_filtrar_apenas_nos_c_c_c_a_d###Filtrar apenas nos campos com chave ao digitar###Filter only fields with key when typing###Filtre solo en campos con clave al escribir
+lbl_limpar_filtros###Limpar filtros###Clear filters###Limpiar filtros
+lbl_fim###Fim###End###Final
+lbl_frequencia###Frequência###Frequency###Frecuencia
+lbl_vinculados###Vinculados###Linked###Vinculados
+lbl_salvar_senha###Salvar senha###Save password###Guardar contraseña
+lbl_salvar_retorno_na_v_d_s###Salvar retorno na variável de sessão###Save return to session variable###Guardar retorno en la variable de sesión
+msg_voce_esta_logado_c_o_s_d_n_e_p_i_o_a_o_d_n_n_s###Você está logado com o setor Default. Não é permitido inserir ou atualizar dados de negócio neste setor.###You’re logged in the Default sector. You can’t insert or edit business data in this sector.###Ha iniciado sesión en el sector Default. No está permitido ingresar o editar datos comerciales en este sector
+msg_voce_esta_logado_c_o_s_d_a_o_s_p_i_o_e_d_d_c_n_s###Você está logado com o setor Default. Apenas o SA pode inserir ou editar dados do CORE nesse setor###You’re logged in the Default sector. Only SA can insert or edit CORE data in this sector.###Ha iniciado sesión en el sector Default. Solo SA puede ingresar o editar datos CORE en este sector
+lbl_possui_retorno###Possui retorno?###Return?###¿Tiene retorno?
+lbl_ativo###Ativo###Enabled###Activo
+lbl_voce_esta_logado_n_s_d###Você está logado no setor Default.###You’re logged in the Default sector.###Ha iniciado sesión en el sector Default
+lbl_historico###Histórico###History###Historial
+lbl_historico_de_acessos###Histórico de acessos###Access history###Historial de accesos
+lbl_historico_de_importacao_d_o###Histórico de importações do objeto ###Object import history###Historial de importación del objeto
+lbl_pagina_inicial###Página inicial###Homepage###Página de inicio
+lbl_tempo###Tempo###Time###Tiempo
+lbl_clonando_registro_id###Clonando registro ID ###Cloning ID record###Clonando ID de registro 
+lbl_identificador###Identificador###Identifier###Identificador
+lbl_idioma###Idioma###Language###Idioma
+lbl_linguagem###Linguagem###Language###Lenguaje
+msg_importacao_do_arquivo_[%s]_c_[%s]_r_[%s]_i_e_[%s]_r_t_[%s]_[%s]###Processamento do arquivo %s concluído. %s registros, %s importados e %s rejeitados. Tempo %s. %s###Processing of file %s completed. %s records, %s imported and %s rejected. Time %s. %s###Procesamiento del archivo ''%s '' completado. %s registros,%s importados y %s rechazados. Tiempo %s. %s
+lbl_importacoes###Importações###Imports###Importaciones
+lbl_importacoes_de_objetos###Importações de objetos###Object imports###Importaciones de objetos
+lbl_importado###Importado###Imported###Importado
+lbl_importar###Importar###Import###Importar
+lbl_importar_xlsx###Importar###Import###Importar
+lbl_importar_dados_objeto###Importar dados de objeto###Import object data###Importar datos de objeto
+lbl_indica_campo_somente_leitura###Indica campo somente leitura###Indicates read-only field###Indica campo de solamente lectura
+lbl_define_se_o_o_d_p_v###Define se o objeto deve possuir vigência.###Defines if the object must have a period of validity.###Indique si el objeto debe tener un período de validez.
+lbl_info###Informação###Info###Informacion
+lbl_informacoes###Informações###Contact info###Informaciones de contacto
+lbl_info_objeto###Informações do objeto###Object info###Informaciones del objeto
+lbl_informacoes_do_objeto###Informações do objeto###Object info###Informaciones del objeto
+lbl_ingles###Inglês###English###Inglés
+lbl_informe_sua_senha###Informe sua senha###Enter your password###Introduzca tu contraseña
+lbl_inativo###Inativo###Disabled###Inactivo
+lbl_entrar###Entrar###Log in###Iniciar sesión
+lbl_login_de_autenticacao_d_u###Login de autenticação do usuário###User authentication login###Inicio de sesión de autenticación de usuario
+lbl_instancia_de_chat###Instâncias de chat###Chat instances###Instancias de chat
+lbl_interacao_predecessora###Interação predecessora###Predecessor interaction###Interacción predecesora
+lbl_interacoes###Interações###Interactions###Interacciones
+lbl_informe_seu_email###Informe seu e-mail###Enter your email###Introduzca tu correo electrónico
+msg_a_base_de_d_d_s_[%s]_a_n_f_c###A base de dados do setor [%s] ainda não foi criada.###A database for sector [%s] hasn’t been created yet.###La base de datos del sector [%s] aún no se ha creado.
+msg_a_coluna_[%s]_p_c_p_a_o_t_d_d_r_a_c###A coluna [%s] é uma chave. Para alterar o tipo de dados, remova a chave.###Column [%s] is a key. To change the data type, remove the key first.###La columna [%s] es una clave. Para cambiar el tipo de datos, elimine la clave.
+msg_a_coluna_[%s]_p_c_n_p_s_r###A coluna [%s] é uma chave, portanto ela não pode ser renomeada.###Column [%s] is a key, it can’t be renamed.###La columna [%s] es una clave. No se puede renombrar.
+msg_a_coluna_[%s]_p_c_n_p_p_n###A coluna [%s] é uma chave, portanto ela não pode ser nula.###Column [%s] is a key, it can’t be null.###La columna [%s] es una clave. No puede ser nula.
+msg_a_coluna_[%s]_j_e_n_t_[%s]###A coluna [%s] já existe na tabela [%s].###Column [%s] already exists in table [%s].###La columna [%s] ya existe en la tabla [%s].
+msg_o_teste_de_c_c_o_e_f_[%s]###O teste de conexão com o serviço de e-mail falhou. %s###The connection test to the email service failed. %s###La prueba de conexión al servicio de correo electrónico ha fallado. %s
+msg_a_query_nao_f_e_n_p###A consulta não foi preparada e nem aplicada.###The query was neither prepared nor applied.###La consulta no fue preparada ni aplicada.
+msg_a_senha_do_u_i_[%s]_f_r###A senha do usuario ID %s foi redefinida###The password from user ID %s has been reset.###La contraseña del usuario ID %s ha sido redefinida
+lbl_a_senha_sera_s_a_n_s###A senha será salva apenas nesta sessão.###The password will be saved only in this session.###La contraseña se guardará solo en esta sesión.
+msg_a_data_fim_[%s]_e_e_o_p_[%s_%s]_d_r_i_[%s]###A data final [%s] está entre o período [%s, %s] do registro ID [%s].###The end date [%s] is between the interval [%s,%s] of the ID record [%s].###La fecha de finalización [%s] se encuentra entre el período [%s, %s] del registro de ID [%s].
+msg_a_data_de_f_d_v_d_s_m_o_i_a_d_d_i_d_v###A data de fim de vigência deve ser maior ou igual à data de início de vigência.###The end date of the period of validity must be equal or greater than the start date.###La fecha de finalización de la validez debe ser mayor o igual que la fecha de inicio de la validez.
+msg_a_data_inicio_[%s]_e_e_o_p_[%s_%s]_d_r_i_[%s]###A data de início [%s] está entre o período [%s, %s] do registro ID [%s].###The start date [%s] is between the interval [%s,%s] of the ID record [%s].###La fecha de inicio [%s] se encuentra entre el período [%s, %s] del registro de ID [%s]
+msg_o_usuario_[%s]_s_r_d_s_p_e_[%s]###O usuário com ID %s solicitou a redefinição de senha por e-mail [%s].###The user ID %s has required a password reset by email [%s].###El usuario com ID %s ha requerido restablecer la contraseña por correo electrónico [%s]
+msg_o_tamanho_do_c_[%s]_s_o_l_s_[%s]_c_p###O tamanho do campo [%s] superou o limite de [%s] caracteres permitido.###The length of the [%s] field exceeded the allowed [%s] character limit.###El tamaño del campo [%s] excedió el límite de caracteres permitido [%s].
+lbl_nova_senha_e_c_d_s_n_c###As senhas não coincidem.###The passwords don’t match.###Las contraseñas no corresponden.
+msg_a_propriedade_emailtest_n_f_e_c_o_d_p_t###A propriedade EMAILTEST não foi encontrada com o destinatário para teste.###The EMAILTEST property wasn’t found with the recipient for testing.###La propiedad EMAILTEST no se encontró con el destinatario para la prueba.
+msg_o_teste_de_c_e_v_a_p_o_t_d_e_e###O teste de conexão é válido apenas para os tipos DATABASE e EMAILSERVICE.###The connection test is valid only for the DATABASE and EMAILSERVICE types.###La prueba de conexión solamente es válida para la BASE DE DATOS y EMAILSERVICE.
+msg_a_tabela_do_o_[%s]_a_n_e_n_b_d_s_[%s]###A tabela do objeto [%s] não existe na base do setor [%s].###The object [%s] table doesn’t exist in the sector [%s].###La tabla del objeto [%s] aún no existe en la base del sector [%s].
+msg_a_tabela_do_o_[%s]_p_d_e_n_p_s_r###A tabela do objeto [%s] possui dados e não pode ser renomeada.###The object [%s] table has data and can’t be renamed.###La tabla del objeto [%s] tiene datos y no se puede renombrar.
+lbl_ultima_atualizacao_realizada_e###Última atualização:###Latest update:###Última actualización:
+msg_a_unidade_de_n_d_u_e_i###A Unidade de Negócios deste usuário está inativa.###The Business Unit of this user is disabled.###La Unidad de Negocios de este usuario está inactiva.
+lbl_limpar###Limpar###Clear###Limpiar
+lbl_linha###Linha###Line###Línea
+lbl_linhas###Linhas###Lines###Líneas
+lbl_lista_de_dados###Lista de dados###Data list###Lista de datos
+lbl_chave###Chave###Key###Clave
+msg_os_atrtibutos_[%s]_s_o###O(s) atributo(s) [%s] são obrigatório(s).###[%s] attributes are mandatory.###Los atributos [%s] son ​​obligatorios.
+msg_registros_do_objeto_i_[%s]_f_e###Registros do objeto [%s] foram exportados.###Records from object ID [%s] were exported.###Los registros del objeto [%s] se han exportado.
+msg_registros_do_objeto_i_[%s]_f_t###Registros do objeto [%s] foram truncados.###Records from object ID [%s] were truncated.###Los registros del objeto [%s] se han truncado.
+lbl_usuarios###Usuários###Users###Usuarios
+lbl_usuarios_com_tipo_d_p_u_a_n_p_s_a_c_e_d_e###Usuários com o tipo de perfil UN Admin não podem ser alterados, apenas o e-mail.###Users with UN Admin profile can’t be altered, just their email.###Los usuarios con el tipo de perfil UN Admin no se pueden cambiar, con excepción del correo electrónico.
+lbl_administrativo###Administrativo###Management###Administrativo
+lbl_mensagem###Mensagem###Message###Mensaje
+lbl_mensagem_inicial###Mensagem inicial###Initial message###Mensaje inicial
+lbl_tabela###Tabela###Table###Tabla
+lbl_modulos/permissoes###Módulos / Permissões###Modules / Permissions###Módulos / Permisos
+lbl_exibir###Exibir###View###Mostrar
+lbl_nao###Não###No###No
+lbl_nao_e_editavel_a_a_t_p_r###Não é editável se a tabela possuir registros.###It’s not editable if the table has records.###No es editable si la tabla tiene registros.
+msg_nao_e_possivel_c_a_n_n_a_t_p_r###Não é possível criar atributos que não são nulos. A tabela possui registros.###It’s not possible to create non-null attributes. This table already has records.###No es posible crear atributos no nulos. La tabla tiene registros.
+msg_nao_e_possivel_d_u_c_p_p_n_a_a_t_p_r###Não é possível definir uma coluna para permitir nulo se a tabela possuir registros.###It’s not possible to change this column to nullable. This table already has records.###No es posible definir una columna para permitir nulo después de que la tabla tenga registros
+msg_nao_e_possivel_d_a_q_a_t_p_r###Não é possível deletar os atributos se a tabela possuir registros.###It’s not possible to delete attributes if the table has records.###No es posible eliminar los atributos si la tabla tiene registros.
+msg_nao_e_possivel_d_u_a_c###Não é possível desativar um atributo chave.###It’s not possible to disable a key attribute.###No se puede deshabilitar un atributo clave.
+msg_nao_foi_encontrado_p_p_o_t_d_d_i###Não foram encontrados patterns para o tipo de dados informado.###No patterns were found for the given data type.###No se encontraron patrones para el tipo de datos informado.
+msg_nenhum_recurso_[%s]_econtrado_p_o_c_[%s]###Nenhum recurso [%s] encontrado para o código [%s].###No resources [%s] were found for code [%s].###No se encontró recurso [%s] para el código [%s]
+msg_nao_foi_encontrado_a_c_l_[%s]_n_o_c_[%s]###Não foi encontrado atributo com rótulo [%s] no objeto de código [%s].###No attribute with the label [%s] was found in the object code [%s].###No se encontró ningún atributo con la etiqueta [%s] en el código de objeto [%s]
+msg_nao_foi_encontrado_n_s_p_o_u_l###Não foi encontrado nenhum setor para o usuário logado.###No sector was found for the logged user.###No se encontró ningún sector para el usuario conectado.
+msg_nenhum_servico_de_e_f_e_c_o_i_[%s]_p_e_e###Nenhum serviço de e-mail foi encontrado com o identificador [%s]. ###No email service was found with the identifier [%s].###No se encontró ningún servicio de correo electrónico con el identificador [%s].
+msg_nao_foi_encontrado_n_u_l###Não foi encontrado nenhum usuário logado.###No logged users were found.###No se encontró ningún usuario conectado.
+msg_nao_e_permitido_c_o_e_u_d_n_d###Não é permitido clonar objetos entre Unidades de Negócio diferentes.###Cloning objects between different Business Units isn’t allowed.###No se permite clonar objetos entre diferentes Unidades de Negocio.
+lbl_nao_e_permitido_c_n_u_c_p_u_a###Não é permitido criar novos usuários com perfil UN ADMIN.###Creating new users with UN ADMIN profile isn’t allowed.###No se permite crear nuevos usuarios con el perfil UN ADMIN.
+msg_o_nome_do_b_n_f_i###O nome do banco não foi informado.###The database name wasn’t provided.###El nombre de la base de datos no fue informado.
+msg_nao_foi_possivel_c_o_v_e_d_o_h###Não foi possível converter o valor em formato de data ou hora.###It wasn’t possible to convert this value to date/time format.###No fue posible convertir el valor al formato de fecha u hora.
+lbl_nome###Nome###Name###Nombre
+lbl_nome_base_de_d###Nome da base de dados###Database name###Nombre de la base de datos
+lbl_nome_da_base_d_d_a_a_s###Nome da base de dados associada ao setor###Name of the database linked to this sector###Nombre de la base de datos asociada al sector
+lbl_nome_da_funcao###Nome da função###Function name###Nombre de la función
+lbl_nome_da_tabela_d_d_d_o###Nome da tabela de dados do objeto###Object’s data table name###Nombre de la tabla de datos del objeto
+lbl_nome_do_usuario###Nome do usuário###Username###Nombre del usuario
+lbl_nome_do_arquivo###Nome do arquivo###File name###Nombre del archivo
+lbl_notificacoes###Notificações###Notifications###Notificaciones
+lbl_nova_senha###Nova senha###New password###Nueva contraseña
+lbl_nova_propriedade###Nova propriedade###New property###Nueva propiedad
+lbl_novo_registro###Novo registro###New record###Nuevo registro
+lbl_num_de_atributos###Nº. de atributos###Nº of attributes###Num. de atributos
+lbl_num_de_linhas###Nº. de linhas###Nº of lines###Num. de lineas
+lbl_numero_atributos###Nº. de atributos###Nº of attributes###Num. de atributos
+lbl_numero_de_linhas###Nº. de linhas###Nº of lines###Num. de líneas
+lbl_quantidade_de_objetos###Quantidade de objetos###Nº of objects###Numero de objetos
+lbl_quantidade_de_registros_n_t_d_d###Quantidade de registros na tabela de dados.###Nº of records in the data table###Numero de registros en la tabla de datos.
+lbl_numero_de_telefone###Número de telefone###Phone number###Número de teléfono
+lbl_objeto###Objeto###Object###Objeto
+lbl_objeto_clonado###Objeto clonado ###Cloned object###Objeto clonado
+msg_objeto_clonado_com_s_d_s_[%s]_p_o_[%s]_c_o_n_[%s]_t_[%s]_c_[%s]_a_e_[%s]_c###Objeto clonado com sucesso do setor [%s] para o setor [%s] com o nome [%s], tabela [%s] com [%s] atributo(s) e [%s] chave(s).###Object was cloned from sector [%s] to sector [%s] with name [%s], table [%s] with [%s] attribute(s) and [%s] key(s).###Objeto clonado con éxito del sector [%s] al sector [%s] con el nombre [%s], tabla [%s] con [%s] atributo(s) y [%s] clave(s).
+msg_objeto_relacionado_nao_e###O objeto referenciado não foi encontrado.###The linked object wan’t found.###Objeto referido no encontrado.
+lbl_objeto_valor###Objeto Valor###Value Object###Objeto Valor
+lbl_objeto_generico###Objeto Genérico###Generic Object###Objeto Genérico
+lbl_objetos###Objetos###Objects###Objetos
+lbl_esqueci_minha_senha###Esqueci minha senha###Forgot my password###Olvidé mi contraseña
+lbl_ordem###Ordem###Order###Orden
+lbl_ordenar###Ordenar###Sort###Ordenar
+lbl_ordenar_atributos###Ordenar atributos###Sort attributes###Ordenar atributos
+lbl_ordenacao_dos_atributos_d_o###Ordenação dos atributos do objeto###Sorting of the attributes of the object###Ordenación de los atributos del objeto
+msg_para_criar_o_a_i_f_n_r_a_p_p_n###Para criar o atributo inativo foi necessário redefinir a propriedade que permite nulo.###To create the inactive attribute, it was necessary to reset the “allow null” property.###Para crear el atributo inactivo, fue necesario redefinir la propiedad que permite nulo.
+msg_para_desativar_o_a_f_n_r_a_p_p_n###Para desativar o atributo foi necessário redefinir a propriedade que permite nulo.###To disable the attribute, it was necessary to reset the “allow null” property.###Para deshabilitar el atributo, fue necesario redefinir la propiedad que permite nulo.
+lbl_parametro###Parâmetro###Parameter###Parámetro
+lbl_parametros###Parâmetros###Parameters###Parámetros
+lbl_parametro_de_execucao###Parâmetros de execução###Execution parameters###Parámetros de ejecución
+lbl_parametro_de_execucao_v_a_u###Parâmetros de execução vinculados ao usuário###Execution parameters linked to the user###Parámetros de ejecución vinculados al usuario
+lbl_perfil###Perfil###Profile###Perfil
+lbl_perfis###Perfis###Profiles###Perfiles
+lbl_permissao###Permissão###Permission###Permiso
+lbl_permissoes###Permissões###Permissions###Permisos
+lbl_permite_nulo###Permitir nulo###Allow null###Permitir nulo
+lbl_por###Por###By###Por
+lbl_portugues###Português###Portuguese###Portugués
+lbl_politica_de_privacidade###Politica de privacidade###Privacy policy###Política de privacidad
+lbl_propriedade###Propriedade###Property###Propiedad
+msg_teste_de_conexao###Teste de conexão###Connection test###Prueba de conexión
+lbl_ocorrer###Ocorrer###To occur###Ocurrir
+lbl_rejeitado###Rejeitado###Rejected###Rechazado
+lbl_receber###Receber###Receive###Recibir
+lbl_destinatario###Destinatário###Recipient###Destinatario
+lbl_redirecionar_para_a_i###Redirecionar para a interação###Redirect to interaction###Redireccionar a la interacción
+lbl_situacao_do_registro_n_b_d_d###Situação do registro na base de dados###Record status in the database###Situación del registro de la base de datos
+lbl_registro_de_atividades###Registro de atividades###Activity log###Registro de actividades 
+lbl_historico_registros###Histórico do registro ###Record history###Historial del registro
+lbl_selecionado_registro_id###Registro selecionado###Record selected###Registro seleccionado
+lbl_registro_s###Registros###Records###Registros
+lbl_logs_suite###Logs Suite###Suite Logs###Registros Suite
+lbl_requer_banco_de_d###Requer banco de dados###Requires database###Requiere base de datos
+lbl_reset_senha###Redefinir senha###Reset password###Redefinir contraseña
+lbl_resumo_de_objetos_u_a_e_n_d_r###Resumo de objetos, última alteração e número de registros###Object summary, last change and number of records###Resumen de objetos, último cambio y número de registros.
+lbl_caminho_do_arquivo###Caminho do arquivo###File path###Camiño de archivo
+lbl_rotinas###Rotinas###Routines###Rutinas
+lbl_sair###Sair###Exit###Salir
+lbl_salvar###Salvar###Save###Salvar
+msg_a_[%]_[%s]_f_c###A %s %s foi criada.###%s %s was created.###%s %s fue creada.
+msg_o_arquivo_c_[%s]_l_f_r_a_i_o_e_s_p_e_v_s_n_d_c###O arquivo com [%s] foi recebido. A importação ocorrerá em segundo plano e você será notificado quando terminar.###The file with [%s] was received. Import will run in the background and you’ll be notified when it’s complete.###Se ha recibido el archivo con [%s]. La importación se realizará en segundo plano y se le notificará la finalización.
+msg_este_objeto_esta_s_r_e_n_p_t_s_p_e###Este objeto está sendo referenciado e não pode ter as suas propriedades editadas.###This object is being linked, it can’t have its properties altered.###Se hace referencia a este objeto y no se pueden editar sus propiedades.
+msg_registros_do_objeto_i_[%s]_f_a###Registros do objeto ID %s foram atualizados.###Records from object ID %s were updated.###Se han actualizado los registros del ID de objeto %s.
+msg_os_[%]_[%s]_f_c###Os dados de linguagem %s foram criados.###Language data %s was created.###Se han creado los datos de lenguaje %s.
+msg_os_[%]_[%s]_f_e###Os dados de linguagem %s foram editados.###Language data %s was edited.###Se han editado los datos de lenguaje %s.
+msg_permissoes_exclusivas_foram_r_e_p_n_p_s_a###Permissões exclusivas foram removidas. Essas permissões não podem ser atribuídas.###Exclusive permissions were removed. These permissions can’t be attributed.###Se han eliminado los permisos exclusivos. Estos permisos no se pueden atribuir.
+msg_registros_do_objeto_i_[%s]_f_a1###Registros do objeto ID %s foram apagados.###Records from object ID %s were deleted.###Se han eliminado los registros de la ID de objeto %s.
+msg_falha_ao_contar_a_t_d_d_o###Ocorreu um erro ao contar/atualizar a tabela de dados do objeto.###An error occurred while counting/updating the object’s data table.###Se produjo un error al contar/actualizar la tabla de datos del objeto.
+msg_o_id_e_o_p_d###O ID é obrigatório para deleção.###ID is required for deletion.###Se requiere ID para eliminar.
+lbl_setor###Setor###Sector###Sector
+lbl_setor_a_qual_o_u_p###Setor do usuário###User sector###Sector al que pertenece el usuario
+lbl_setores###Setores###Sectors###Sectores
+lbl_selecionar_arquivo###Selecionar Arquivo###Select file###Seleccionar Archivo
+lbl_selecione_um_objeto_p_f###Selecione um objeto para iniciar###Select an object to start###Seleccione un objeto para comenzar
+lbl_selecione_um_objeto_p_i###Selecione um objeto para iniciar###Select an object to start###Seleccione un objeto para comenzar
+lbl_servico_de_dados###Serviço de dados###Data service###Servicio de datos
+msg_teste_de_conexao_s_d_d_[%s]###Teste de conexão do serviço de dados %s###Data service connection test %s###Prueba de conexión del servicio de datos %s
+lbl_sim###Sim###Yes###Sí
+lbl_silenciar_notificacoes###Silenciar notificações###Mute notifications###Silenciar notificaciones
+lbl_sem_filtro_ao_d###Sem filtro ao digitar###No filter when typing###Sin filtro al escribir
+lbl_sistema###Sistema###System###Sistema
+lbl_status###Status###Status###Status
+lbl_tabela_de_dados_a###Tabela de dados associada###Linked data table###Tabla de datos asociada
+lbl_consulta_sql_tabela_d_d_o###Consulta SQL à tabela de dados do objeto ###SQL query to the object’s data table###Consulta SQL a la tabla de datos del objeto
+lbl_dashboard###Dashboard###Dashboard###Dashboard
+lbl_assunto###Assunto###Subject###Tema en cuestion
+lbl_terminando_as###Terminando às###Ending at###Terminando a las
+lbl_hora_de_execucao###Hora de execução###Execution time###Hora de ejecución
+lbl_tipo###Tipo###Type###Tipo
+lbl_tipo_de_chat###Tipo de chat###Chat type###Tipo de chat
+lbl_tipo_de_dados###Tipo de dados###Data type###Tipo de datos
+lbl_tipo_da_mensagem###Tipo da mensagem###Message type###Tipo de mensaje
+lbl_tipo_perfil###Tipo perfil###Profile type###Tipo de perfil
+lbl_tipo_de_validacao###Tipo de validação###Validation type###Tipo de validación
+lbl_tipos_de_acao###Tipos de ação###Action types###Tipos de acción
+lbl_tipos_de_chat###Tipos de chat###Chat types###Tipos de chat
+lbl_todos_os_direitos_r###Todos os direitos reservados###All rights reserved###Todos los derechos reservados
+lbl_ultimo_acesso###Último acesso###Last access###Último acceso
+lbl_ultimos_acessos_p_p_u###Últimos acesso. Pesquisar por usuários###Latest access. Search for users.###Último acceso. Buscar usuarios
+lbl_ultima_alteracao###Última alteração###Last change###Último cambio
+msg_o_atributo_de_u_o_n_p_f_r_a_p_o###O atributo de um objeto não pode fazer referência ao próprio objeto.###An object’s attribute cannot refer to the object itself.###Un atributo de objeto no puede referirse al objeto en sí.
+lbl_um_usuario_nao_p_t_s_u_d_n_a###Um usuário não pode ter a sua unidade de negócio alterada.###A user can’t have their business unit altered.###Un usuario no puede cambiar su Unidad de Negocio
+lbl_unidade_de_negocio###Unidade de negócio###Business unit###Unidad de negocio
+lbl_unidades_de_negocio###Unidades de negócio###Business units###Unidades de negocios
+lbl_url_base###URL base###Base URL###URL base
+lbl_usuario###Usuário###User###Usuario
+lbl_usuario_desde###Usuário desde###User since###Usuario desde
+msg_usuario_invalido###Usuário invalido!###Invalid user!###¡Usuario invalido!
+lbl_usuario_ou_senha_i###Usuário ou senha inválidos###Invalid user or password###Usuario o contraseña inválidos
+lbl_usuarios_de_chat###Usuários de chat###Chat users###Usuarios de chat
+lbl_usuarios_online###Usuários online###Online users###Usuarios en línea
+lbl_usuarios_vinculados###Usuários vinculados###Linked users###Usuarios vinculados
+lbl_vigencia###Vigência###Period of validity###Validez
+lbl_valor###Valor###Value###Valor
+lbl_valor_atribuido_a_d_d_o###Valor atribuído à descrição do objeto###Value attributed to object description###Valor asignado a la descripción del objeto
+lbl_valor_atribuido_ao_n_d_u###Valor atribuído ao nome do usuário###Value attributed to username###Valor asignado al nombre del usuario
+lbl_valor_atribuido_ao_n_d_o###Valor atribuído ao nome do objeto###Value attributed to object name###Valor asignado al nombre del objeto
+lbl_valor_ingles###Valor inglês###English value###Valor en inglés
+lbl_valor_padrao###Valor padrão###Standard value###Valor estandar
+lbl_valor_portugues###Valor português ###Portuguese value###Valor portugués
+lbl_valores###Valores###Values###Valores
+lbl_objeto_valores###Valores do objeto###Object values###Valores de objeto
+lbl_variavel###Variável###Variable###Variable
+lbl_variavel_de_sessao###Variável de sessão###Session variable###Variable de sesión
+lbl_versao###Versão###Version###Versión
+msg_ja_existe_um_r_c_[%s]###Já existe um registro com %s###A record with %s already exists.###Ya existe un registro con %s
+msg_ja_existe_um_r_c_e_c_1###Já existe um registro com esta chave.###A record with this key already exists.###Ya existe un registro con esta clave.
+msg_ja_existe_um_r_c_e_t_p_o_[%s]###Já existe um registro com essa tradução para o %s.###A record with this translation for %s already exists.###Ya existe un registro con esta traducción para %s.
+msg_ja_existe_um_r_c_e_c###Já existe um registro com esse código.###A record with this code already exists.###Ya existe un registro con este código.
+msg_ja_existe_um_r_c_a_m_c_e_c_a_v_e_a_p_i_o_e_n_f_a_a###Já existe um registro com a mesma chave com a vigência em aberto, para iniciar outro é necessário fechar a anterior.###A record with the same key and an ongoing period of validity already exists, to start a new one it’s necessary to close the previous one.###Ya existe un registro con la misma clave con la validez en abierto, para iniciar otro es necesario cerrar el anterior.
+msg_ja_existe_uma_t_c_e_n_n_b_d_d_d_s###Já existe uma tabela com este nome na base de dados do setor.###A table with this name already exists in this sector.###Ya existe una tabla con este nombre en la base de datos del sector.
+lbl_a_tabela_exibe_a_b_d_r_h_e_v_q_n###A tabela exibe automaticamente a barra de rolagem horizontal e vertical quando necessário.###The table automatically shows horizontal and vertical scroll bars if necessary.###La tabla muestra automáticamente la barra de desplazamiento horizontal y vertical si es necesario.
+lbl_apresenta_informacoes_referentes_a_t_d_o###Apresenta informações referentes à tabela do objeto.###It shows information regarding the object’s table.###Mostra información sobre la tabla del objeto.
+lbl_armazena_novos_valores_o_a_d_v###Armazena novos valores e alterações de valores.###It stores new values and value changes.###Almacena nuevos valores o cambios de valores.
+lbl_cada_atributo_possui_u_t_d_d_p_o_s_a_c_o_t_d_d_i_e_i###Cada atributo possui um tipo de dado pré-definido, o sistema alertará caso o tipo de dado esteja incorreto.###Each attribute has a predefined data type, the system will generate an alert in case of error. ###Cada atributo tiene un tipo de datos predefinido, el sistema generará una alerta en caso de error.
+lbl_campos_bloqueados_indicam_q_d_a_e_i###Campos bloqueados indicam que determinado atributo está inativo.###Blocked fields indicate that the attribute is disabled.###Los campos bloqueados indican que el atributo está deshabilitado.
+lbl_carrega_os_dados_d_r_s_p_e###Carrega os dados do registro selecionado para edição.###It loads selected record data for editing.###Carga los datos de registro seleccionados para editarlos.
+lbl_carrega_no_formulario_u_c_d_r_p_a_a_c_d_u_n_r###Carrega no formulário uma cópia do registro para acelerar a criação de um novo registro.###It loads a copy of the record on the data form in order to speed up the creation of a new one.###Carga una copia del registro en el formulario de datos para acelerar la creación de uno nuevo.
+lbl_cria_uma_referencia_p_u_o_o_p_r_d_t_d_o###Cria uma referência para um outro objeto. Permite relacionar duas tabelas de objetos através de um atributo com o tipo de dados "OBJECT".###It creates a link to another object. It allows the user to link two objects using an attribute with the OBJECT data type.###Crea un enlace a otro objeto. Permite vincular dos tablas de  objetos utilizando un atributo con el tipo de datos "OBJETO".
+lbl_data_e_hora_e_q_a_c_f_c###Data e hora em que a coluna foi criada###Column creation timestamp###Fecha y hora de creación de la columna
+lbl_define_a_ordem_d_a_d_a_n_f_d_p_e_n_c_d_t###Define a ordem de apresentação dos atributos no formulário de preenchimento e no componente de tabela.###It sets the presentation order of the attributes on the data form and on the table grid.###Establezca el orden de presentación de los atributos en el formulario de datos y también en la cuadrícula de la tabla.
+lbl_exportacao_dos_dados_s_e_f_x###Exportação dos dados selecionados em formato XLS.###Export selected data with XLS extension.###Exportación de datos de datos seleccionados en formato XLS.
+lbl_importacao_de_um_x_c_p_f_d_p_a###Importação de um arquivo XLS pré-formatado pela aplicação.###Import an XLS file that was pre-formatted by the application.###Importación de datos de un archivo XLS previamente formateado por la aplicación. 
+lbl_indica_q_o_p_d_a_e_o###Indica que o preenchimento do atributo é obrigatório.###It indicates that an attribute is required.###Indica que el atributo es obligatorio.
+lbl_indica_que_o_a_e_u_c_c###Indica que o atributo é uma chave.###It indicates that the attribute is a key.###Indica que el atributo es una clave.
+lbl_limpa_os_dados_d_a_e_i_o_o_s_f_d_d###Limpa os dados dos atributos e inicializa o objeto sem filtrar de dados.###It clears attribute data and loads the object without any filter applied.###Borra los datos de atributos y carga el objeto sin aplicar ningún filtro.
+lbl_na_edicao_de_u_r_o_p_d_f_e_d###Na edição de um registro o processo de filtragem é desativado.###During attribute editing, filtering is disabled.###Durante la edición de atributos, el filtrado está deshabilitado.
+lbl_nome_da_coluna_d_d_a_a_a###Nome da coluna de dados associada ao atributo.###Name of the column that is linked to the attribute.###Nombre de la columna asociada al atributo.
+lbl_nome_da_tabela_a_a_o###Nome da tabela associada ao objeto.###Name of the table that is linked to the object.###Nombre de la tabla asociada al objeto.
+lbl_o_atributo_somente_s_c_s_h_u_t_d_d_a_a_o###O atributo somente será criado se houver uma tabela de dados associada ao objeto.###The attribute will only be created if there’s a data table linked to the object.###El atributo solo se creará si hay una tabla de datos asociada al objeto.
+lbl_o_estilo_de_f_i_i_c_s_l###O estilo de fonte itálico indica campo somente leitura.###Italic font indicates read-only fields.###El estilo de fuente en cursiva indica campos de solo lectura.
+lbl_o_nome_atributo_d_c_a_c_a_o_o_c###O nome do atributo deve conter apenas caracteres alfanuméricos e sublinhado (_).###The attribute name can only contain alphanumeric characters and underscore (_).###El nombre del atributo debe contener solo caracteres alfanuméricos y subrayado (_).
+lbl_objeto_para_valor###Objeto para valor:###Object to value:###Objeto para valor:
+lbl_objeto_selecionado_no_f_d_p###Objeto selecionado no filtro de pesquisa.###Object selected on search filters.###Objeto seleccionado al filtrar.
+lbl_padrao_de_nome_d_c_d_d_a_e_o_p_n_d_a###Padrão de nome da coluna de dados associada é o próprio nome do atributo###Linked data column name pattern is the attribute name itself.###El patrón de nombre de columna de datos asociado es el nombre del atributo mismo "
+lbl_tabela_de_dados###Tabela de dados:###Data table:###Tabla de datos:
+lbl_tipo_de_dados_d_a###Tipo de dados do atributo###Attribute data type###Tipo de datos del atributo
+lbl_valor_atribuido_a_d_d_a###Valor atribuído à descrição do atributo.###Value assigned to attribute''s description.###Valor asignado a la descripción del atributo.
+lbl_valor_atribuido_ao_n_d_a###Valor atribuído ao nome do atributo.###Value assigned to attribute''s name.###Valor asignado al nombre del atributo.
+lbl_visualiza_a_consulta_s_d_o_s###Visualizar a consulta SQL do objeto selecionado.###View SQL query of the selected object.###Mostrar consulta SQL del objeto seleccionado.
+lbl_importacao_em_execucao###Importação em execução###Import ongoing###Importación en ejecución
+lbl_erro_ao_executar_u_d_a###Erro ao executar o upload do arquivo:###Error uploading file:###Error cargar el archivo:
+lbl_tamanho_maximo_de_a_p###Tamanho máximo de arquivo permitido###Maximum file size###Tamaño máximo de archivo permitido
+lbl_sua_senha_foi_e_p_o_e###Sua senha foi enviada para o e-mail###Your password has been sent to your email###Su contraseña ha sido enviada al correo electrónico
+lbl_licenca_aplicada_com_s###Licença aplicada com sucesso###License applied###Licencia aplicada con éxito
+lbl_este_usuario_nao_p_n_s_a###Este usuário não possui nenhum setor ativo.###This user doesn’t have an active sector.###Este usuario no tiene sector activo.
+lbl_atributo###Atributo###Attribute###Atributo
+lbl_esse_objeto_possui_u_p_d_i_e_e_a_s_c_e_t_n###Esse objeto possui um processo de importação em execução, aguarde a sua conclusão e tente novamente.###There’s an ongoing import for this object, wait for it to complete and try again.###Este objeto tiene un proceso de importación en ejecución, espere a que se complete e intente nuevamente.
+lbl_registro_deletado_com_s###Registro deletado com sucesso###Record deleted###Registro eliminado con éxito
+lbl_senha_enviada_para_o_e###A senha foi enviada para o seu e-mail.###The password was sent to your e-mail.###Contraseña enviada al correo electrónico.
+lbl_ops_ocorreu_algum_p###Ops... Ocorreu algum problema.###Oops... Something went wrong.###Ops.. Ocurrió un problema.
+lbl_mais_detalhes###Mais detalhes###More details###Más detalles
+lbl_detalhe###Detalhes###Details###Detalles
+msg_ocorreu_um_problema_n_c_c_a_b_d_s_[%s]_t_n_s_p_s_a_a_u_a_d_a###Ocorreu um problema na conexão com a base de dados do setor [%s]. Tente novamente. Se o problema persistir, solicite análise ao UN Admin da aplicação.###Connection with sector database failed [%s]. Please, try again. If the issue persists, request an analysis from the application UN Admin.###Ocurrió un problema al conectarse a la base del sector [%s]. Inténtalo de nuevo. Si persiste, solicite un análisis del UN Admin de la aplicación.
+lbl_PUBLIC###Público###Public###Público
+lbl_PRIVATE###Privado###Private###Privado
+lbl_pesquisar_por_unidade_d_n###Pesquisar por unidade de negócio###Search by business unit###Buscar unidad de negocio
+msg_ja_existe_um_r_d_m_c_c_u_v_i_p_a_i_d_v_d_r_i_a_c_e_o_f_a_d_v###Já existe um registro de mesma chave com uma vigência inicial posterior ao inicio da vigência desse registro, impossibilitando a criação, edição ou fechamento automático da vigência.###A record with the same key and a period of validity that starts after this record already exists, which makes it impossible to create, edit or automatically end this period of validity.###Ya existe un registro de misma clave con un término inicial posterior del comienzo de la validez de ese registro, lo que hace imposible crear, editar o cerrar automáticamente la validez. 
+lbl_tamanho_texto###Tamanho texto###Text size###Tamaño del texto
+lbl_valor_default###Valor padrão###Default value###Valor estándar
+lbl_auto_incremento###Auto-incremento###Auto-increment###Autoincremento
+lbl_tabela_objeto_externo###Tabela do objeto externo###External object table###Tabla del objeto externo
+lbl_pk_objeto_externo###PK do objeto externo###External object PK###PK del objeto externo
+lbl_rotulo_objeto_externo###Rótulo do objeto externo###External object label ###Etiqueta del objeto externo
+lbl_base_de_dados_objeto_externo###Base de dados do objeto externo###External object database###Base de datos del objeto externo
+lbl_apenas_tabelas_que_t_p_u_e_n_o_s_u_c_o_e###Apenas tabelas que tenham PK única e numérica podem ser usadas como objeto externo.###Only tables with a unique numeric PK can be used as external objects.###Solo las tablas que tienen PK única y numérica se pueden usar como objeto externo.
+lbl_o_relacionemento_entre_o_o_a_a_d_c###O relacionamento entre os objetos acontece por meio desta coluna.###The link between objects is made through this column.###La relación entre los objetos se realiza a través de esta columna.
+lbl_somente_colunas_do_t_v_i_l_d_d_e_n_n_p_s_u_c_l_e_o_e###Somente colunas do tipo VARCHAR, INTEGER, LONG, DATE e DATETIME não nulas podem ser usadas como rótulos em objetos externos.###Only VARCHAR, INTEGER, LONG, DATE and DATETIME columns that aren’t null can be used as labels on external objects.###Somente colunas do tipo VARCHAR, INTEGER, DECIMA, LONG, DATE ,TIME, DATETIME y BOOLEAN não nulas podem ser usadas como rótulos em objetos externos.
+lbl_confirmar_delecao_do_r_?###Confirmar a deleção do registro?###Confirm record deletion?###¿Confirmar eliminación de registro?
+lbl_texto###texto###text###texto
+lbl_numero_inteiro###numero inteiro###integer number###número entero
+lbl_numero_decimal###numero decimal###decimal number###número decimal
+lbl_true_ou_false###true ou false###true or false###Verdadera o falsa
+lbl_sysdatetime_ou_data_hora###sysdatetime ou data e hora###sysdatetime or date and time###sysdatetime o fecha y hora
+lbl_sysdate_ou_data###sysdate ou data###sysdate or date###sysdate o fecha
+lbl_systime_ou_hora###systime ou hora###systime or time###systime o hora
+lbl_nao_ha_colunas_n_n_p_c_c###Não há colunas ''not null'' para criar chave.###There’s no "not null" column to create key.###No hay columnas "not null" para crear clave.
+lbl_o_servidor_de_a_n_e_a_o_a_u_n_e###O servidor de aplicação não está acessível ou a URL não existe.###The application server is offline or the URL does not exist.###El servidor de aplicación está fuera de línea o la URL no existe
+lbl_ocorreu_um_erro_n_i_v_a_c_d_n_p_m_d###Ocorreu um erro não identificado. Verifique a console do navegador para mais detalhes.###An unidentified error occurred. Check the browser console for more details.###Ocurrió un error no identificado. Verifique la consola del navegador para más detalles.
+lbl_voce_nao_esta_l_o_s_s_e_r_n_l###Você não esta logado ou sua sessão expirou. Realize novo login.###You’re either not logged in or your session has expired. Try logging in again.###No ha iniciado sesión o tu sesión ha expirado. Prueba un nuevo inicio de sesión
+lbl_apenas_atributos_nao_n_c_t_d_d_v_i_l_d_e_d_p_s_u_c_r_d_o_r###Apenas atributos não nulos com o tipo de dados VARCHAR, INTEGER, LONG, DATE ou DATETIME podem ser utilizados como rótulos de objetos referenciados.###Only attributes with VARCHAR, INTEGER, LONG, DATE or DATETIME data type that are not null can be used as labels on linked objects.###Solo los atributos no nulos con el tipo de datos de VARCHAR, INTEGER, LONG, DATE E DATETIME se pueden usar como etiquetas de objeto referenciadas
+lbl_numero###numero###number###número
+lbl_nenhum###nenhum###none###ninguno
+lbl_este_objeto_possui_d_a_a_p_e_b###Este objeto possui dados, algumas ações podem estar bloqueadas.###This object has data, some actions may be blocked.###Este objeto tiene datos, algunas acciones pueden ser bloqueadas
+lbl_dados###Dados###Data###Datos
+lbl_aplicacao###Aplicação###Application###Aplicación
+msg_ocorreu_um_problema_a_e_o_c_[%s]_n_b_[%s]_t_n_s_p_s_a_a_u_a_d_a_c_[%s]_c_[%s]###Ocorreu um problema ao executar o comando [%s] no banco [%s]. Tente novamente. Se persistir, solicite análise ao UN Admin da aplicação. Causa SQL: [%s]. Comando: [%s].###A problem occurred when running the command [%s] on database [%s]. Please, try again. If the issue persists, request an analysis from the application’s UN Admin. SQL cause: [%s]. Command: [%s].###Ocurrió un problema al ejecutar el comando [%s] en la base de datos [%s]. Intente nuevamente. Si el problema persiste, solicite al UN Admin de la aplicación una verificación. Causa SQL: [%s] Comando: [%s].
+lbl_objeto_externo###Objeto externo###External object###Objeto externo
+lbl_objeto_relacionado###Objeto referenciado###Referenced object###Objeto referenciado
+lbl_conectividade_objeto_externo###Conexão com objeto externo###Connection to external object###Conexión con objeto externo
+lbl_atributo_com_valor_d###Atributo com valor default###Attribute with default value###Atributo con valor default
+lbl_pk_do_objeto###PK do objeto###Object PK###PK del objeto
+lbl_atributo_obrigatorio###Atributo obrigatório###Mandatory attribute###Atributo requerido
+lbl_processos###Processos###Processes###Procesos
+lbl_dpg###DPG###DPG###DPG
+lbl_grupo###Grupo###Group###Grupo
+lbl_processo_pai###Processo agrupador###Aggregator process###Proceso agrupador
+lbl_tabela_bkp###Tabela de backup###Backup table###Tabla de backup
+lbl_job###Job###Job###Job
+lbl_servidor###Servidor###Server###Servidor
+lbl_dir_processo###Diretório do processo###Process directory###Directorio del proceso
+lbl_dir_arquivo_origem###Diretório do arquivo de origem###Source file directory###Directorio del archivo de origen
+lbl_dir_arquivo_destino###Diretório do arquivo de destino###Target file directory###Directorio del archivo de destino
+lbl_tempo_vida_arquivo_o###Tempo de vida do arquivo de origem (dias)###Source file lifetime (days)###Duración del archivo de origen (días)
+lbl_tempo_vida_arquivo_d###Tempo de vida do arquivo de destino (dias)###Target file lifetime (days)###Duración del archivo de destino (días)
+lbl_periodicidade_carga###Periodicidade da carga###Load periodicity###Periodicidad de la carga
+lbl_email_destino###E-mail de destino para informações###Target email for information###Correo electrónico de destino para informaciones
+lbl_email_erro###E-mail de destino para erros###Target email for errors###Correo electrónico de destino para errores
+lbl_intervalo_processamento###Intervalo de processamento###Processing interval###Intervalo de procesamiento
+lbl_checkpoint###Checkpoint###Checkpoint###Chackpoint
+lbl_grupos###Grupos###Groups###Grupos
+lbl_initials###Iniciais###Initials###Iniciales
+lbl_timbres###Timbres###Stamps###Timbres
+lbl_termos_glossario###Termos de glossário###Glossary terms###Términos del glosario
+lbl_nome_favorito###Nome favorito###Favorite name###Nombre favorito
+lbl_prefixo###Prefixo###Prefix###Prefijo
+lbl_iniciais###Iniciais###Initials###Iniciales
+lbl_principal###Principal###Main###Principal
+lbl_configuracoes###Configurações###Settings###Ajustes
+lbl_execucao###Execução###Execution###Ejecución
+lbl_bot_info###Bot de informações###Information bot###Bot de informaciones
+lbl_bot_error###Bot de erro###Error bot###Bot de errores
+lbl_token###Token###Token###Token
+lbl_bot###Bot###Bot###Bot
+lbl_chatid###Identificador do chat###Chat identifier###Identificador de chat
+lbl_data_de_fim###Data final###End date###Fecha final
+lbl_servidor_destino###Servidor de destino###Target server###Servidor de destino
+lbl_tabela_principal###Tabela principal###Main table###Tabla principal
+lbl_dir_versionamento###Diretório de versionamento###Versioning directory###Directorio de versiones
+lbl_calculo###Cálculo###Calculation###Calculo
+lbl_selecione_um_item###Selecione um item###Select an item###Seleccione un artículo
+lbl_validar###Validar###Validate###Validar
+lbl_remover###Remover###Remove###Eliminar
+lbl_calculado###Calculado###Calculated###Calculado
+lbl_campo_calculado###Campo calculado###Calculated field###Campo Calculado
+lbl_caso_o_i_d_p__n_s_p_o_s_d_p_e_c_o_v_0###Caso o [Intervalo de Processamento] não seja preenchido, o valor será 0.###If the [Processing Interval] isn’t set by the user, it will be automatically set to 0.###Si no se completa el [Intervalo de procesamiento], el sistema establecerá este valor en 0.
+lbl_caso_a_data_d_i_s_p_o_i_d_p_s_i###Caso a [Data de Início] seja preenchida, o [Intervalo de Processamento] será ignorado.###If the [Start Date] is set, the [Processing Interval] will be ignored.###Si se completa la [Fecha de inicio], se ignorará el [Intervalo de procesamiento].
+lbl_caso_a_data_d_f_n_s_e_o_s_d_d_a_e_p_e_c###Caso a [Data de Fim] não seja preenchida, o sistema preencherá com a data e a hora atuais no formato "dd/mm/aaaa hh:00:00".###If the [End Date] isn’t set by the user, it will be automatically set to current date and time in the format "dd/mm/yyyy hh:00:00".###Si no se completa la [Fecha de finalización], el sistema definirá la fecha y hora actuales en el formato "dd / mm / aaaa hh: 00: 00"
+lbl_caso_a_data_d_i_n_s_p_o_s_d_d_a_e_p_e_c###Caso a [Data de Início] não seja preenchida, o sistema preencherá com o cálculo [Data de Fim]-[Intervalo de processamento] no formato "dd/mm/aaaa 00:00:00".###If the [Start Date] isn’t set by the user, it will be automatically set according to the calculation [End Date] - [Processing Interval] in the format "dd/mm/yyyy 00:00:00".###Si no se completa la [Fecha de inicio], el sistema definirá el cálculo [Fecha de finalización] - [Intervalo de procesamiento] en el formato "dd / mm / aaaa 00:00:00"
+lbl_grupos_de_processo###Grupos de processo###Proccess groups###Grupos de proceso
+lbl_nome_do_grupo_d_p###Nome do grupo de processo###Process group name###Nombre del grupo de proceso
+lbl_descricao_do_grupo_d_p###Descrição do grupo de processo###Process group description###Descripción del proceso grupal
+lbl_initials_do_grupo_s###Iniciais do grupo de processo###Process group initials###Iniciales del grupo de proceso
+lbl_timbres_de_e-mail###Timbres de e-mail###Email stamps###Sellos de correo electrónico
+lbl_nome_do_timbre###Nome do timbre###Stamp name###Nombre del timbre
+lbl_aceita_a_insercao_d_v_e_s_p_v###Aceita a inserção de vários endereços de e-mail separados por vírgula.###Allows the input of multiple email addresses separated by comma.###Permite la inserción de múltiples direcciones de correo electrónico separadas por comas.
+lbl_grupo_de_notificacoes_de_aplicativo###Grupo de notificação de aplicativo###Application notification group###Grupo de notificación de aplicación
+lbl_nome_grupo_de_n###Nome do grupo de notificação###Notification group name###Nombre del grupo de notificación
+lbl_nome_do_termo###Nome do termo###Term name###Nombre del término
+lbl_nome_favorito_do_t###Nome favorito do termo###Favorite term name###Nombre favorito del término
+lbl_initials_do_termo###Iniciais do termo###Term initials###Iniciales del término
+msg_ja_existe_um_[%s]_c_e_n###Já existe um [%s] com esse nome.###A [%s] with this name already exists.###Ya existe un [%s] con este nombre.
+msg_esse_processo_nao_p_s_d_p_e_e_p_d_o_p###Esse processo não pode ser desabilitado pois ele é agrupador de outros processos.###This process can’t be disabled because it’s an aggregator of other processes.###Este proceso no se puede deshabilitar porque es un agrupador de otros procesos.
+msg_nao_e_possivel_d_o_i_d_p_q_e_u_d_i###Não é possível definir o intervalo de processamento quando existe uma data inicial de processamento.###It’s impossible to set the processing interval if there’s an initial processing date.###No es posible establecer el Intervalo de procesamiento cuando hay una fecha de procesamiento inicial.
+msg_o_intervalo_d_p_e_o_q_a_d_d_f_e_d###O intervalo de processamento é obrigatório quando a data final está definida.###Setting a processing interval is mandatory when the end date is defined.###El intervalo de procesamiento es obligatorio cuando se define la fecha de finalización.
+msg_a_d_f_d_s_m_q_a_d_i###A data final deve vir depois da data inicial.###The end date must come after the start date.###La fecha de finalización debe ser mayor que la fecha de inicio.
+msg_ja_existe_um_[%s]_c_e_i###Já existe um [%s] com essas iniciais.###A [%s] with these initials already exists.###Ya existe un [%s] con estas iniciales.
+msg_ja_existe_um_[%s]_c_e_l_d_e###Já existe um [%s] com essa lista de e-mails.###A [%s] with this email list already exists.###Ya existe un [%s] con esta lista de correo electrónico.
+lbl_grupo_do_processo###Grupo do processo###Process group###Grupo del proceso
+lbl_nome_do_processo###Nome do processo###Process name###Nombre del proceso
+lbl_descricao_do_processo###Descrição do processo###Process description###Descripción del proceso
+lbl_job_do_processo###Job do processo###Process job###Job del proceso 
+lbl_grupo_de_notificacoes_d_i###Grupo de notificações de informações###Information notification group###Grupo de notificaciones de informaciones
+lbl_grupo_de_notificacoes_d_e###Grupo de notificações de erro###Error notification group###Grupo de notificaciones de errores
+lbl_grupo_de_processo###Grupo de processo###Process group###Grupo de proceso
+lbl_timbre###Timbre###Stamp###Timbre
+lbl_processo###Processo###Process###Proceso
+lbl_existem_processos_com_e_n_d_t_e_n_d_t_b_c###Já existe um processo cadastrado com esse nome de tabela e nome de tabela backup.###A process with this table name and table name backup already exists.###Ya existe un proceso con este nombre de tabla y nombre de tabla backup.
+lbl_existem_processos_com_e_n_d_t_c###Já existe um processo cadastrado com esse nome de tabela.###A process with this table name already exists.###Ya existe un proceso con este nombre de tabla.
+lbl_existem_processos_com_e_n_d_t_d_b_c###Já existe um processo cadastrado com esse nome de tabela backup.###A process with this table name backup already exists.###Ya existe un proceso con este nombre de tabla backup.
+msg_o_usuario_[%s]_a_s_s###O usuário [%s] alterou sua senha.###The user [%s] changed their password.###El usuario [%s] cambió su contraseña.
+lbl_selecione_ou_preencha###Selecione ou digite###Select or type###Seleccionar o escribir
+lbl_verdadeiro###Verdadeiro ###True###Verdadero 
+lbl_falso###Falso###False###Falso
+lbl_data_hora_sistema###Data e hora do sistema###System date and time###Fecha y hora del sistema 
+lbl_hora_sistema###Hora do sistema###System time###Hora del sistema
+lbl_data_sistema###Data Sistema###System date###Fecha del sistema
+lbl_expressao###Expressão###Expression###Expresión
+lbl_provider_servidor###Provedor/Servidor###Provider/Server###Proveedor/Servidor
+lbl_exportar_template###Exportar template###Export template###Exportación de Plantillas
+lbl_tarefa_de_dados###Tarefa de dados###Data task###Tarea de datos
+msg_erro_ao_recuperar_d_d_o_r_n_a_[%s]###Erro ao recuperar dados do objeto relacionado no atributo [%s].###Error retrieving object data linked to the attribute [%s].###Error al recuperar datos para el objeto listado en el atributo [%s]
+msg_erro_ao_recuperar_d_d_o_e_n_a_[%s]_c_[%s]###Erro ao recuperar dados do objeto externo no atributo [%s]. Causa: [%s].###Error retrieving external object data in the attribute [%s]. Cause: [%s].###Error al recuperar datos del objeto externo en el atributo [%s]. Causa: [%s]
+msg_a_lista_recebida_e_v###A lista recebida está vazia.###The received list is empty.###La lista recibida está vacía.
+msg_index_criado_com_s###Index criado com sucesso.###The index was created.###Index creado con éxito
+msg_erro_ao_exportar_d_d_o_[%s]###Erro ao exportar dados do objeto [%s].###Error exporting object data [%s].###Error al exportar datos del objeto [%s].
+msg_o_arquivo_nao_e_m_d###O arquivo não está mais disponível.###The file is no longer available.###El archivo ya no está disponible.
+msg_erro_ao_exportar_d_r###Erro ao exportar dados rejeitados.###Error exporting rejected data.###Error al exportar datos rechazados.
+msg_o_nome_do_b_n_f_d_n_t_d_d###O nome do banco não foi definido na tarefa de dados.###The database name wasn’t defined in the data task.###El nombre de la base no se definió en la tarea de datos.
+msg_o_provedor_do_b_n_f_d_n_t_d_d###O provedor do banco não foi definido na tarefa de dados.###The database provider wasn’t defined in the data task.###El proveedor de la base no se ha definido en la tarea de datos.
+msg_o_host_do_b_n_f_d_n_t_d_d###O host do banco não foi definido na tarefa de dados.###The database host was not defined in the data task###El host de la base no se definió en la tarea de datos.
+msg_nao_foi_possivel_r_o_b_d_d###Não foi possível recuperar o banco de dados.###Couldn’t retrieve database.###No se pudo recuperar la base de datos.
+msg_nao_foi_possivel_i_a_t_d_b_[%s]###Não foi possível identificar as tabelas do banco [%s].###Couldn’t find tables in database [%s].###No se pudieron identificar las tablas en la base de datos [%s].
+msg_nao_foi_possivel_i_a_c_d_t_[%s]###Não foi possível identificar as colunas da tabela [%s].###Couldn’t find columns in table [%s].###No se pudieron identificar las columnas en la tabla [%s].
+msg_este_atributo_possui_r_n_t_o_r_d_a_d_e_p_n_t_d_v_p_q_a_p_d_n_p_n_s_h###Este atributo possui registros nulos, todos os registros deste atributo devem estar preenchidos na tela de valores para que a propriedade de não permitir nulos seja habilitada.###This attribute has null records, all records of this attribute must be set in the value screen so that the property that doesn’t allow null entries is enabled.###Este atributo tiene registros nulos, todos los registros de este atributo deben completarse en la pantalla de valores para que la propiedad de no permitir nulos sea habilitada
+msg_nao_e_possivel_r_o_t_d_a_d_u_o_c_i###Não é possível reduzir o tamanho do atributo de um objeto contendo informações.###It’s impossible to reduce the size of the attribute of an object containing information.###No es posible reducir el tamaño del atributo de un objeto que contiene informações.
+msg_nao_foi_possivel_r_o_c_ [%s]_[%s]###Não foi possivel realizar o cálculo [%s]. [%s]###Couldn’t calculate [%s]. [%s]###No se puede realizar el cálculo [%s]. [%s]
+msg_o_tamanho_do_t_n_p_s_m_o_i_a_z###O tamanho do texto não pode ser menor ou igual a zero.###Text size can’t be less than or equal to zero.###El tamaño del texto no puede ser menor o igual que cero.
+msg_conexao_tarefa_de_d_[%s]_tabela_[%s]_r_c_s###Conexão entre a tarefa de dados [%s] e a tabela [%s] foi realizada com sucesso.###Data task [%s] and table [%s] are connected.###Conexión entre la tarea de datos [%s] y la tabla [%s] fue realizada con éxito. 
+msg_o_registro_[%s]_d_m_c_t_s_v_f_a###O registro [%s] de mesma chave teve sua vigência fechada automaticamente.###Record [%s] with the same key had its period of validity automatically closed.###El registro [%s] de la misma clave há tenido su validez cerrada automáticamente.
+msg_ao_menos_um_c_d_s_p###Ao menos um campo deve ser preenchido.###At least one field must be filled.###Se debe completar al menos un campo.
+msg_a_tarefa_de_d_e_i_n_e_p_r_o_d_d_o###A tarefa de dados está inativa. Não foi possível recuperar os dados do objeto.###The data task is disabled. It’s impossible to retrieve object data.###La tarea de datos está inactiva. No se pueden recuperar los datos del objeto.
+msg_o_setor_logado_f_r_d_t_d_d_d_a_n_e_p_r_o_d_d_o###O setor logado foi removido da tarefa de dados do atributo. Não é possível recuperar os dados do objeto.###The logged sector was removed from the attribute data task. It’s impossible to retrieve object data.###El sector conectado se ha eliminado de la tarea de datos de atributos. No se pueden recuperar los datos del objeto.
+msg_nao_foi_possivel_r_o_c_[%s]_d_a_[%s]###Não foi possivel realizar o cálculo [%s] do atributo [%s].###Couldn’t calculate [%s] for the attribute [%s].###No fue posible realizar el cálculo [%s] del atributo [%s]
+msg_vigencia_fechada_automaticamente###A vigência foi encerrada automaticamente.###The period of validity was closed automatically.###Validez cerrada automáticamente.
+msg_atributo_nao_econtrado###Atributo não econtrado###Attribute not found###Atributo no encontrado
+msg_portanto_algumas_linhas_f_r_n_a###. Portanto algumas linhas foram rejeitadas no arquivo.###. Therefore, some lines were rejected in the file.###. Por lo tanto, algunas líneas fueron rechazadas en el archivo.
+lbl_atributos_auto_incremento_n_p_s_c_e_o_q_j_p_d###Atributos auto-incrementados não podem ser criados em objetos que já possuem dados.###Auto-increment attributes can’t be created for objects that already have data.###Los atributos de incremento automático no se pueden crear en objetos que ya tienen datos.
+lbl_auto_incremento_nao_p_s_u_e_c_c###Auto-incremento não pode ser usado em campo calculado.###Auto-increment can’t be used in the calculated field.###El incremento automático no se puede usar en el campo calculado.
+lbl_campo_calculado_nao_s_u_e_a_c_a_i###Campo calculado não pode ser usado em atributos com auto incremento.###Calculated field can’t be used with auto-increment attributes.###El campo calculado no se puede usar en atributos de incremento automático.
+lbl_atributo_usado_na_c_n_p_t_a_p_p_n_a###Atributo usado na chave não pode ter a propriedade “permitir nulo” alterada.###Attribute used in the key can’t have the “allow null” property altered.###El atributo utilizado en la clave no puede cambiar la propiedad "permitir nulo".
+lbl_atributo_com_auto_i_d_o_p_n###Atributo com auto-incremento deve obrigatoriamente permitir nulo.###Attribute with auto-increment must allow null.###El atributo con incremento automático debe permitir nulo
+lbl_ops_problema_ao_i_l_d_a###Ops. Problema ao identificar label do(s) atributo(s).###Oops. There was a problem identifying the attribute’s label.###Ups. Problema al identificar etiqueta del (de los) atributo(s).
+lbl_digite_para_pesquisar###Digite para pesquisar###Type to search###Escriba para buscar
+lbl_longo###Longo###Long###Largo
+msg_esse_nome###esse nome###this name###este nombre
+lbl_licenca###Licença###License###Licencia
+lbl_chave_unidade_negocio###Chave Unidade de Negócio###Business unit key###Clave Unidad de Negocio
+lbl_chave_aplicacao###Chave Aplicação###Application key###Clave Aplicación
+lbl_validade###Validade###Period of validity###Validez
+lbl_quantidade###Quantidade###Quantity###Cantidad
+lbl_nova_licenca###Nova Licença###New license###Nueva Licencia
+msg_o_numero_de_u_u_o_m_p_p_s_l_o_u_f_c_o_s_i###O número de usuários ultrapassou o máximo permitido pela sua licença. O usuário foi criado com o status inativo. ###The number of users has exceeded the maximum allowed by your license. The user was created with inactive status.###El número de usuarios ha excedido el máximo permitido por su licencia. El usuario fue creado con estado inactivo.
+msg_o_numero_de_o_u_o_m_p_p_s_l###O número de objetos ultrapassou o máximo permitido pela sua licença.###The number of objects exceeded the maximum allowed by your license.###El número de objetos há excedido el máximo permitido por su licencia.
+lbl_visualizar###Visualizar###View###Visualizar
+lbl_atributo_calculado###Atributo calculado###Calculated attribute###Atributo calculado
+lbl_tooltip###Tooltip###Tooltip###Tooltip
+lbl_data_hora###data hora###datetime###fecha hora
+lbl_hora###hora###time###hora
+lbl_decimal###decimal###decimal###decimal
+lbl_indica_q_o_a_p_v_d###Indica que o atributo possui valor default.###Indicates that the attribute has a default value.###Indica que el atributo tiene valor default.
+lbl_indica_q_o_a_e_u_c_c###Indica que atributo é um campo calculado.###Indicates which attribute is a calculated field.###Indica que atributo es un campo calculado.
+lbl_permite_filtro###Permite filtro###Allow filter###Permite filtro
+lbl_inteiro###inteiro###integer###entero
+msg_este_objeto_possui_u_o_e_c_o_s_d_d_n_t_a_a_u_t_d_d_c_a_b_[%s]###Este objeto possui um objeto externo cujo o setor de destino não tem acesso a uma tarefa de dados que corresponda ao banco [%s]###This object has an external object whose target sector does not have access to a data task that corresponds to the bank [%s]###Este objeto tiene un objeto externo cuyo sector objetivo no tiene acceso a una tarea de datos que corresponde al banco [%s]
+lbl_pesquisar_por###Pesquisar por###Search by###Buscar por
+lbl_pesquisar###Pesquisar###Search###Buscar 
+msg_nao_possivel_efetuar_a_o_v_s_s_l_e_v###Não foi possível efetuar a operação verifique se sua linceça é valida###Was not possible to execute this operation, check if your license is valid###No fue posible ejecutar esta operación, verifique si su licencia es válida.
+msg_nao_foi_possivel_r_o_d_d_f###Não foi possível recuperar os dados de filtro###Was not possible retrieve filter data###No fue posible recuperar los datos del filtro
+msg_nao_foi_possivel_r_o_d###Não foi possivel recuperar os dados###Was not possible retrieve data###No fue posible recuperar los datos
+msg_o_ano_planejamento_[%s]_n_f_c_n_o_d_p###O ano de planejamento [%s] não foi criado no objeto de períodos###Planning year [%s] was not created in the period object###El año de planificación [%s] no se ha creado en el objeto de períodos
+msg_existe_produto_com_v_m_q_z_s_u_d_d###Existe(m) produto(s) com volume maior que zero sem uma dose definida###There are product with volume greater than zero without a defined dose###Hay producto(s) con un volumen superior a cero sin una dosis definida
+msg_registros_do_objeto_customizado_[%s]_f_a###Registros do objeto customizado [%s] foram atualizados###Custom object records [% s] have been updated###Se actualizaron los registros de objetos personalizados [%s]
+lbl_o_filtro_selecionado_r###O filtro selecionado retornou###The selected filter returned###El filtro seleccionado retornó
+lbl_produtos_impossivel_carregar_o_g###produtos. Impossível carregar o grid###products. Unable to load the grid###productos. No se puede cargar la red
+lbl_importante###Importante###Important###Importante
+lbl_e_um_valor_i_p_o_i_n_t_a_v_d_0_a_1###é um valor invalido para o indicador NO TREATMENTS. Apenas valores de 0 a 100###is an invalid value for the NO TREATMENTS indicator. Values from 0 to 100 only###es un valor no válido para el indicador NO TREATMENTS. Solo valores de 0 a 100
+lbl_alerta###Alerta###Warn###Alerta
+lbl_do_ano###do ano###of year###del año
+lbl_nao_foi_informado###não foi informado…###was not informed###No fue informado...
+lbl_produto###Produto###Product###Producto
+lbl_o_forcast###O Forecast###The Forecast###El Forecast
+lbl_ja_possui_informacoes_p_a_c_d_d_i_s_d_c###já possui informações preenchidas, a clonagem de dados irá sobrescrevê-las. Deseja continuar?###already has information filled in, cloning data will overwrite it. Do you wish to continue?###ya tiene la información completa, los datos de clonación la sobrescribirán. ¿Desea continuar?
+lbl_definir_valores_para_z###Definir valores para zero###Set values to zero###Establecer valores en cero
+lbl_limpar_selecao###Limpar seleção###Clear selection###Limpiar selección
+lbl_filtro_em_funcao_d_p###Filtrar em função do produto###Filter according to the product###Filtrar según el producto
+lbl_favorito###Favorito###Favorite###Favorito
+lbl_home###Home###Home###Home
+lbl_icone###Ícone###Icon###Icono
+lbl_rota###Rota###Router###Camino
+lbl_manter_autenticado###Manter Autenticado###Keep Authenticated###Mantener autenticado
+lbl_redefinir_senha_usuario###Redefinir senha do usuário###Reset user password###Restablecer contraseña del usuario
+lbl_redefinicao_de_senha###Redefinição de senha###Reset password###Restablecer contraseña
+lbl_definir_para_senha_i###Redefinir para a senha inicial###Reset to initial password###Restablecer la contraseña inicial
+lbl_enviar_nova_senha_p_e###Enviar nova senha por email###Send new password by e-mail###Enviar nueva contraseña por correo electrónico
+msg_senha_redefinida_para_s_i_c_s###Senha redefinida para a senha inicial com sucesso###Password successfully reset to initial password###Contraseña restablecida correctamente a la contraseña inicial
+msg_nova_senha_enviada_c_s_p_o_e_[%s]###Nova senha enviada com sucesso para o email [%s]###New password successfully sent to email [%s]###Nueva contraseña enviada correctamente al correo electrónico [%s]
+msg_o_servico_de_e_n_e_d_s_a_r_m_d_a_a_d_u_d_n###O serviço de e-mail não está disponível. Solicite a redefinição manual da senha ao admninistrador da Unidade de Negócio###The email service is unavailable. Request the manual password reset to Business Unit administrator###El servicio de correo electrónico no está disponible. Solicite un restablecimiento de contraseña manual al administrador de la Unidad de Negocio
+lbl_manter_dados###Manter Dados###Keep Data###Mantener Datos
+lbl_indicador###Indicador###Indicator###Indicador
+lbl_atual###Atual###Current###Actual
+lbl_usar_valor_calculado###Usar valor calculado###Use calculated value###Usar valor calculado
+lbl_calcular###Calcular###Calculate###Calcular
+lbl_calcular_volume_price###Calcular volume e price###Calculate volume and price###Calcular volume y price
+lbl_e_um_valor_i_p_o_i_m_a_v_d_0_a_1###é um valor invalido para o indicador MARKETSHARE. Apenas valores de 0 a 100###is an invalid value for the MARKETSHARE indicator. Values from 0 to 100 only###es un valor no válido para el indicador MARKETSHARE. Solo valores de 0 a 100
+lbl_ano###Ano###Year###Año
+lbl_stack###Stack###Stack###Stack
+lbl_download###Download###Download###Descargar
+lbl_ultimos_erros###Utimos erros###Last errors###Últimos errores
+bl_historico_de_erros###Historico de erros###History erros###Historial de errores
+lbl_atributo_chave_do_o###Atributo chave do objeto###Key object attribute###Atributo clave del objeto
+lbl_nome_icone###Nome ícone###Icon name###Nombre icono
+lbl_preferecias_do_usuario###Preferências###User preferences###Preferencias 
+lbl_exemplo_de_icones###Exemplos de ícone###Icon examples###Ejemplos de iconos
+lbl_numero_licenca###Número de licenças###License number###Número de licencia
+lbl_expira_em###Expira em###Expires in###Expira en
+lbl_em_uso###Em uso###In use###En uso
+lbl_itens_da_licença###Itens da licença###License items###Elementos de licencia
+lbl_itens_em_uso###Itens em uso###Items in use###Elementos en uso
+lbl_licencas###Licenças###Licenses###Licencias
+lbl_agendas###Agenda###Schedule###Agenda
+lbl_ordenar_por###Ordenar por###Sort by###Ordenar por
+lbl_manter_filtros###Manter filtro###Keep filter###Mantener filtro
+lbl_licenciamento###Licenciamento###Licensing###Licencia
+lbl_favoritos###Favoritos###Favorites###Favoritos
+lbl_nome_coluna_dados###Nome coluna de dados###Column data name###Nombre columna de datos
+lbl_historico_de_erros###Historico de erros###Errors history###Historial de errores
+lbl_suite###Suite###Suite###Suite
+lbl_data_proxima_execucao###Data da Proxima Execução###Next Run Date###Próxima de la Proxima Ejecución
+lbl_email_error###Email de Erro###Error Email###Correo electrónico de error
+lbl_scheduler###Agenda###Schedule###Agenda
+lbl_acoes###Ações###Actions###Acciones
+lbl_fluxo###Fluxo###Flow###Flujo
+lbl_filtros###Filtros###Filters###Filtros
+lbl_nome_do_padrao###Nome do Padrão###Pattern Name###Nombre del Patrón
+lbl_delimitador###Delimitador###Delimiter###Delimitador
+lbl_caminho_do_arquivo_d###Caminho do Arquivo de Destino###Destination File Path###Camino del archivo de destino
+lbl_nome_do_arquivo_completo###Nome Completo do Arquivo###Full File Name###Nombre Completo del Archivo
+lbl_fim_da_linha###Fim da Linha###End of the line###Final de la línea
+lbl_tabela_de_destino###Tabela de Destino###Target Table###Tabla de destino
+lbl_funcao###Função###Occupation###Función
+lbl_variavel_a_percorrer###Variável a percorrer###Variable to go###Variable a recorrer
+lbl_parametros_de_execucao###Parâmetros de Execução###Execution Parameters###Parámetros de Ejecución
+lbl_codificacao_do_arquivo###Codificação do Arquivo###File Encoding###Codificación del Archivo
+lbl_nome_do_procedimento###Stored Procedure###Stored Procedure###Procedimiento almacenado
+lbl_aplicar_regras_permissao_v_p###Aplicar regras de permissão ###Apply permission rules###Aplicar reglas de permiso
+lbl_e_necessario_novo_l_p_a_e_a###É necessario novo login para aplicar essa alteração###New login is required to apply this change###Se requiere un nuevo inicio de sesión para aplicar este cambio
+lbl_notificao_enviada_com_s###Notificação enviada com sucesso.###Notification sent successfully###Notificación enviada con éxito
+lbl_enviando_emails###Enviando emails…###Sending emails…###Mandando correos electrónicos…
+lbl_enviar_notificacao###Enviar notificação###Send notification###Enviar notificación
+lbl_atualizar_dashboard###Atualizar dashboard###Update dashboard###Actualizar Tablero
+lbl_dashboard_atualizado_com_s###Dashboard atualizado com sucesso.###Dashboard updated successfully.###Tablero actualizado con éxito.
+lbl_calcular_volume###Calcular volume###Calculate volume###Calcular volume
+lbl_grupo_de_usuarios###Grupo de Usuários###Users Group###Grupo de Usuarios
+lbl_atualizacao_dashboards_solicitada_c_s###Atualização dashboards solicitada com sucesso###Update successfully requested dashboards###Actualizar los paneles solicitados correctamente
+lbl_status_atualizacao_dashboards###Status atualização dashboards###Status update dashboards###Paneles de control de actualización de estado
+lbl_rotina###Rotina###Routine###Rutina
+lbl_status_execucao###Status execução###Execution status###Estado de ejecución
+lbl_ultima_execucao###Ultima execução###Last run###Última carrera
+lbl_status_atualizacao###Status atualização###Status update###Actualización de estado
+lbl_pesquisar_por_portugues###Pesquisar por Português###Search by Portugues###Buscar por Português
+lbl_pesquisar_por_ingles###Pesquisar por Ingles###Search by English###Buscar por Ingles
+lbl_pesquisar_por_espanhol###Pesquisar por Espanhol###Search by Spanish###Buscar por Español
+"lbl_valor_espanhol	###Valor Espanhol###Spanish value###Valor Español "
+lbl_selecione_uma_lista_d_d###Selecione uma lista de dados###Select a data list###Seleccionar una lista de datos
+lbl_nome_exibicao###Nome de exibição###Display name###Nombre para mostrar
+lbl_modulo_codigo_fonte###Modulo codigo fonte###Source code module###Módulo de código fuente
+lbl_imagen###Imagen###Image###Imagen
+lbl_pesquisar_por_aplicacao###Pesquisar por aplicação###Search by application###Buscar por aplicación
+lbl_pesquisar_por_modulo###Pesquisar por modulo###Search by module###Buscar por módulo
+lbl_pesquisar_por_componente###Pesquisar por componente###Search by component###Buscar por componente
+lbl_modulo###Modulo###Module###Módulo
+lbl_permissao_predecessora###Permissão predecessora###Predecessor permission###Permiso de predecesor
+lbl_componente###Componente###Component###Componente
+lbl_sequencia_raiz###Sequência raiz###Root sequence###Secuencia de raíces
+lbl_raiz###Raiz###Root###Raíces
+lbl_sequencia###Sequência###sequence###Secuencia
+lbl_toolbar###Toolbar###Toolbar###Toolbar
+lbl_raiz_toolbar###Raiz toolbar ###Toolbar root###Toolbar raíces
+lbl_json_licenca###JSON Licença###License JSON###Licencia JSON
+lbl_identificador_unidade_negocio###Identificador Unidade de Negócio###Business Unit identifier###Identificador de Unidad de Negocio
+lbl_identificador_aplicacao###Identificador Aplicação###Application identifier###Identificador de Aplicación 
+lbl_data_expiracao###Data expiração###Expiration date###Fecha de caducidad
+lbl_detalhe_licenca###Detalhe licença###License detail###Detalle de licencia
+lbl_gerar_licenca###Gerar licença###Generate license###Generar licencia
+lbl_lbl_aviso###Aviso###Notice###Darse cuenta
+lbl_lbl_atencao###Atenção###Attention###Atención
+lbl_lbl_falha###Falha###Failure###Fracaso
+lbl_lbl_sucesso###Sucesso###Success###Éxito
+lbl_relacionamentos###Relacionamentos###Relationship###Relación
+lbl_configuracoes_visuais###Configurações Visuais###Visual Settings###Ajustes Visuales
+lbl_tamanho_grid###Tamanho Grid###Grid Size###Tamaño de la cuadrícula
+lbl_pixel###Pixel###Pixel###Pixel
+lbl_ordenacao###Ordenação###Sort###Ordenar
+lbl_tamanho_input###Tamanho Form###Form Size###Tamaño de entrada
+lbl_mostrar_grid###Mostrar no Grid###Show on Grid###Mostrar en cuadrícula
+lbl_mostrar_input###Mostrar no Form###Show on Form###Mostrar en entrada
+lbl_visualizador_tela_valor_i_d_d###Visualizador Tela Valor - Input de Dados###Value Screen Viewer - Data Input###Visor de pantalla de valor - Entrada de datos
+lbl_apenas_os_attributo_i_v_c_e_v_p_p_a_o__d_e_m_n_i###Apenas os atributos ID, valor calculado e valor padrão permitem a opção de edição Mostrar no Form###Only the attributes ID, calculated and default value allow edition option "Show on Form"###Solo el ID de atributos, el valor calculado y predeterminado permiten la opción de edición "Mostrar en la entrada"
+lbl_reset###Reset###Reset###Reset
+lbl_historico_usuario###Histórico usuário###User history###Historial de usuario
+lbl_historico_registro###Histórico registro###Record history###Historial de registros
+lbl_historicos###Históricos###History###Historia
+lbl_historico_acessos###Histórico acessos###Access history###Historial de acceso
+lbl_historico_requisicoes###Histórico requisiões###Request history###Solicitar historial
+lbl_browser###Navegador###Browser###Navegador
+lbl_na_data_de###Na data de:###On the date of:###En la fecha de:
+lbl_no_setor###no setor:###in the sector:###en el sector:
+lbl_uma_acao_de###uma açao de:###an action of:###una acción de:
+lbl_foi_realizada_na_entidade###foi realizada na entidade:###was held at the entity:###se llevó a cabo en la entidad:
+lbl_de_codigo###de codigo: ###code:###código:
+lbl_fk_tabela_objeto_externo###FK tabela objeto externo###External object table FK###Tabla de objetos externos FK
+lbl_attributo_dependente###Atributo dependente###Dependent attribute###Atributo dependiente
+lbl_os_dados_deste_a_n_i_s_c_e_f_d_r_s_n_a_p###Os dados deste atributo na inserção será carregado em função do registro selecionado no atributo pai###The data of this attribute in the insertion will be loaded according to the record selected in the parent attribute###Los datos de este atributo en la inserción se cargarán según el registro seleccionado en el atributo padre
+lbl_atributo_pai###Atributo pai###Parent attribute###Atributo principal
+lbl_coluna_do_objeto_u_n_j_c_a_p_d_a_p###Coluna da tabela do objeto externo usada no join com a PK do atributo pai###Column table from external object used on join at PK parent attribute###Columna de objeto externo utilizada en la combinación en el atributo principal PK
+lbl_atributo_dependente_campo###Atributo dependente do campo###Dependent attribute from field###Atributo dependiente del campo
+lbl_este_atributo_e_d_de_o__a_s_u_r_n_c###Este atributo é dependente de outro atributo. Selecione um registro no campo: ###This attribute is dependent from another attribute. Select a record at field:###Este atributo depende de otro atributo. Seleccione un registro en el campo:
+lbl_indica_q_o_a_e_u_a_d###O atributo é um atributo dependete###The attribute is a dependent attribute###El atributo es un atributo dependiente
+lbl_arquivos###Arquivos###Files###Archivos
+lbl_upload_de_arquivos###Upload de arquivos###Files upload###Carga de archivos
+lbl_selecionar_arquivos###Selecionar arquivos###Choose files###Seleccionar archivos
+lbl_confirmar_reset_configuracoes###Confirmar reset configurações?###Do you confirm settings reset?###Confirmar reset ajustes?
+msg_o_usuario_logado_n_e_m_d_g_d_u_i###O usuario logado não é membro do grupo de usuários informado###The logged user isn't member of user group selected###El usuario registrado no es miembro del grupo de usuarios seleccionado
+msg_o_objeto_nao_p_o_g_d_u_i###O objeto não possui o grupo de usuários informado###The object doen't have the user group selected###El objeto no tiene seleccionado el grupo de usuarios
+lbl_grupo_s###Grupo(s)###Group(s)###Grupo(s)
+lbl_selecione_um_grupo_d_u###Selecione um grupo de usuários###Select a user group###Seleccione un grupo de usuarios
+lbl_objeto_privado###Objeto privado###Private object###Objeto privado
+lbl_grupos_do_usuario###Grupos do usuário###Groups from user###Grupos de usuarios
+lbl_vazio###Vazio###Empty###Vacío
+lbl_acesso_nao_permitido_p_e_p###Acesso não permitido para esse perfil###Access not allowed for this profile###Acceso no permitido para este perfil
+lbl_abrir###Abrir###Open###Abierto
+lbl_os_dados_deste_a_s_u_n_t_d_v_m_n_s_i_n_o###Os dados deste atributo sera usado na tela de valor mas nao ser inserido no objeto###The data of this attribute will be used in the value screen but will not be inserted in the object###Los datos de este atributo se utilizarán en la pantalla de valor pero no se insertarán en el objeto
+lbl_definir_atributo_pai_c_n_i###Definir atributo pai como 'non-insertable'###Set parent attribute as non-insertable###Establecer el atributo principal como no insertable
+lbl_pesquisar_por_t_d_d###Pesquisar por tipo de dados###Search by data type###Buscar por tipo de datos
+lbl_ocultar_grupo_2###Ocultar grupo 2###Hide group 2###Ocultar grupo 2
+lbl_exibir_grupo_2###Exibir grupo 2###Show group 2###Mostrar grupo 2
+msg_setor_invalido_um_l_f_r_e_o_s_n_m_s###Setor inválido. Um login foi realizado em outro setor na mesma sessão###Invalid sector. A login was made in another sector in the same session###Sector no válido. Se realizó un inicio de sesión en otro sector en la misma sesión
+msg_esse_perfil_esta_e_u###Esse perfil está em uso###This profile is in use###Este perfil está en uso
+lbl_e_obrigatorio###é obrigatório###is requerid###es obligatorio
+lbl_e_um_valor_i_p_o_i_d_i_a_v_d_1_a_1###é um valor invalido para o indicador DIGITAL IMPACT. Apenas valores de -100 a 100###is an invalid value for the DIGITAL IMPACT indicator. Values from -100 to 100 only###es un valor no válido para el indicador DIGITAL IMPACT. Solo valores de -100 a 100
+msg_atributos_null_nao_p_s_d_c_u###Atributo NULL não podem ser definido como Unique###NULL attribute cannot be defined like Unique###El atributo NULL no se puede definir como Único
+msg_nao_e_permitido_d_a_c_u_e_o_c_d###Não é permitido definir atributos como Unique em objeto com dados.###It's not allowed define Unique attribute in object with data###No se permite definir un atributo único en un objeto con datos
+lbl_unique###Unique###Unique###Unique
+lbl_coluna_unique###Coluna unique###Unique column###Columna unique 
+lbl_este_objeto_possui_d_a_o_p_r_s_p_a###Este objeto possui dados, apenas os próximos registros serão privados, os demais continuarão publico até que sejam atualizados com algum grupo. Confirmar?###This object it has data, only the next records will be private, the others will stay public, until  will be updated with some group. Confirm?###Este objeto tiene datos, solo los siguientes registros serán privados, los demás permanecerán públicos, hasta que se actualicen con algún grupo. ¿Confirmar?
+lbl_voce_esta_alterando_o_t_d_d_d_v_e_o_e_i_c###Você esta alterando o tipo de dados da vigência, esta operação é irreversível. Confirmar?###You are shift the data type from period of validity, this operation is irreversible. Confirm?###Está desplazando el tipo de datos del período de validez, esta operación es irreversible. ¿Confirmar?
+lbl_conexoes_internas###Conexões internas###Internal connections###Conexiones internas
+lbl_conexoes_externas###Conexões externas###External connections###Conexiones externas
+msg_atributos_do_objeto_[%s]_s_u_c_r_e_o_o_e_s_n_s_a###Atributos do objeto [%s] são utilizados como rótulos em outros objetos e se necessário serão atualizados.###Attributes from object [%s] are used like label in another objects and whether necessary will be update###Los atributos del objeto [% s] se utilizan como etiqueta en otros objetos y se actualizará si es necesario
+msg_os_rotulos_foram_a###Os rótulos foram atualizados###The labels has been updated###Las etiquetas se han actualizado
+lbl_lista_privada###Lista Privada###Private List###Lista Privado
+lbl_novo_objeto###Novo Objeto###New Object###Nuevo Objeto
+msg_este_objeto_possui_f_c_e_n_p_s_a###Este objeto possui front customizado, ele não pode ser alterado###This object has a custom front, it cannot be changed###Este objeto tiene un frente personalizado, no se puede cambiar
+lbl_marca###Marca###Brand###Marca
+lbl_upload_volume###Upload Volume###Upload Volume###Subir Volumen
+lbl_nova_marca###Nova Marca###New Brand###Nueva Marca
+lbl_perquisar_por_id###Pesquisar por Id###Search Id###Buscar Id
+lbl_pesquisar_codigo###Pesquisar Codigo###Search Code###Buscar Codigo
+lbl_pesquisar_marca###Pesquisar Marca###Search Brand###Buscar Marca
+lbl_pesquisar_trait###Pesquisar Trait###Serch Trait###Buscar Trait
+lbl_pesquisar_modelo_comercializacao###Pesquisar Modelo Comercialização###Search Sales Model###Buscar Modelo Ventas
+lbl_novo_produto###Novo Produto###New Product###Nuevo Produto
+lbl_codigo###Codigo###Code###Codigo
+lbl_trait###Trait###Trait###Trait
+lbl_modelo_comercializacao###Modelo Comercialização###Sales Model###Sales Model
+lbl_peso_saca###Peso Saca###Sack Weight###Peso Del Saco
+lbl_variacao###Variação###Variation###Variación
+lbl_adicionar_variacao###Adicionar Variação###Add Variation###Añadir Variación
+lbl_estado###Estado###State###Estado
+lbl_dias_germinacao###Dias Germinação###Germination Days###Días Germinación
+lbl_taxa_semeadura###Taxa Semeadura###Seeding Rate###Tasa Siembra
+lbl_pesquisar_nome###Pesquisar Nome###Search Name###Buscar Nombre
+lbl_pesquisar_status###Pesquisar Status###Search Status###Buscar Status
+lbl_selecione_um_periodo###Selecione um Periodo###Select Period###Seleccione Período
+lbl_type###Tipo###Type###Tipo
+lbl_atualizar_rotulos###Atualizar rotulos###Update label###Fecha etiqueta
+lbl_relatorio_periodo###Relatorio Período###Report Period###Período de Informe
+lbl_periodo###Período###Period###Período
+lbl_produto_estado###Produto | Estado###Product | State###Produto | Estado
+lbl_volume_faturado###Volume Faturado###Billed Volume###Volumen Facturado
+lbl_safra###Safra###Crop###Cultivo
+lbl_data_limite###Data Limite###Limit Date###Fecha Límite
+lbl_recebidos###Recebidos###Received###Recebidos
+lbl_pendentes###Pendentes###Pending###Pendiente
+lbl_relatorio###Relátorio###Report###Informe
+msg_relatorio_indisponivel_existem_e_p_d_e###Relatório indisponível. Existem empresas pendentes de envio###Unavailable report. There are company pending of sent###Informe no disponible. Hay empresa pendiente de enviar
+msg_relatorio_indisponivel_uma_d_e_r_m_d_[%s]_p_d_v_t###Relatório indisponível. Uma das empresas reportou mais de [%s] porcento do volume total.###Unavailable report. One of company reported more than [%s] percent of the total volume###Informe no disponible. Una de las empresas informó más del [%s] por ciento del volumen total.
+msg_relatorio_disponivel###Relatório disponível###Available report###Informe disponible
+msg_o_grupo_de_u_n_f_i###O grupo de usuario não foi informado###The user group has not been reported###No se ha informado del grupo de usuarios
+mg_nao_foi_econtrado_o_e_p_o_c_d_g_d_u_[%s]###Não foi encontrado Objeto Empresa para o codigo de Grupo De Usuario: [%s]###No Company Object found for the User Group code: [%s]###No se encontró ningún objeto de empresa para el código de grupo de usuarios: [%s]
+msg_produto_nao_encontrado###Produto não econtrado###Product not found###Producto no encontrado
+msg_valor_para_[%s]_d_s_m_q_[%s]###Valor para [%s] deve ser maior que [%s]###Value for [%s] must be greater than [%s]###El valor de [%s] debe ser mayor que [%s]
+msg_valor_para_[%s]_d_s_m_q_[%s]_1###Valor para [%s] deve ser menor que [%s]###Value for [%s] must be less than [%s]###El valor de [%s] debe ser menor que [%s]
+msg_valores_[%s]_invalidos###Valores [%s] inválidos###Invalid [%s] values###Valores de [%s] no válidos
+msg_regra_[%s]_nao_e###Regra [%s] não econtrada###Rule [%s] not found###Regla [%s] no encontrada
+lbl_empresas###Empresas###Companies###Compañías
+lbl_empresa###Empresa###Company###Compañía
+msg_relatorio_indisponivel_periodo_b###Relatório indisponível. Período bloqueado###Unavailable report. Locked period###Informe no disponible. Período bloqueados
+lbl_deseja_deletar_os_d_f###Deseja deletar os dados filtrados###Do you want to delete filtered data###¿Quieres eliminar los datos filtrados?
+lbl_serao_deletados###Serão deletados###Will be deleted###Será borrado
+lbl_registros_confirmar###registros, confirmar?###records, confirm?###registros, ¿confirmar?
+lbl_deletar_registros_filtrados###Deletar registros filtrados###Delete filtered data###Eliminar datos filtrados
+msg_esta_delecao_possui_r_q_e_u_n_r_c_o_o_e_n_p_s_d###Esta deleção possui registro(s) que é usado no relacionamento com outro(s) objeto(s) e não podem ser deletado(s)###This deletion has record(s) that is used in the relationship with other object(s) and cannot be deleted###Esta eliminación tiene registro (s) que se usa en la relación con otros objetos y no se puede eliminar
+msg_este_atributo_possui_r_c_o_o_[%s]_e_n_p_s_d###Esse atributo possui relacionamento com outro(s) objeto(s) [%s]. Ele não pode ser deletado.###You can’t delete this attribute, it’s linked to another object [%s].###Este atributo tiene una relación con otros objetos [%s]. No puede ser apagado.
+msg_a_coluna_[%s]_e_u_p_a_o_t_d_d_r_a_u###A coluna [%s] é unique. Para alterar o tipo de dados, remova a unicidade.###Column [%s] is unique. To change the data type, remove the unique first.###La columna [%s] es unique. Para cambiar el tipo de datos, elimine la unique.
+msg_este_atributo_possui_u_i_u_r_o_i_a_d_a###Esse atributo possui um index Unique. Remova o index antes de apagá-lo.###This attribute has an index unique . Remove the unique index before deleting it###Este atributo tiene un índice Único. Elimine el índice antes de eliminarlo.
+msg_o_setor_proprietario_d_t_d_d_n_p_s_r###O setor proprietario desta Tarefa de Dados não pode ser removido###The sector owner of this Data Task cannot be removed###El propietario del sector de esta tarea de datos no se puede eliminar

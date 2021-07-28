@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_data_service ADD cod_sector_data_task_parent BIGINT NULL;

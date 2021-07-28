@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine
+WORKDIR /app
+COPY target/suite-application-4.0.0.2.jar .
+CMD ["java","-jar","suite-application-4.0.0.2.jar"]

@@ -1,0 +1,32 @@
+yum install https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+
+yum install postgresql12
+
+yum install postgresql12-server
+
+/usr/pgsql-12/bin/postgresql-12-setup initdb
+
+systemctl enable postgresql-12
+systemctl start postgresql-12
+systemctl restart postgresql-12
+
+ACCESS FROM REMOTE
+
+____________________________________________________________________________________________________________
+# sudo vi /etc/postgresql/9.6/main/postgresql.conf #### Postgresql 9.6
+# sudo vi /var/lib/pgsql/10/data/postgresql.conf ##### Postgresql 10
+# sudo vi /var/lib/pgsql/11/data/postgresql.conf ##### Postgresql 11
+#
+# - Connection Settings -
+
+listen_addresses = '*'                  # what IP address(es) to listen on;
+                                        # comma-separated list of addresses;
+                                        # defaults to 'localhost'; use '*' for all
+                                        
+____________________________________________________________________________________________________________                                        
+# sudo vi /etc/postgresql/9.6/main/pg_hba.conf
+# sudo vi /var/lib/pgsql/10/data/pg_hba.conf ##### FOR Postgresql 10
+# sudo vi /var/lib/pgsql/11/data/pg_hba.conf ##### FOR Postgresql 11
+#
+# TYPE   DATABASE   USER   CIDR-ADDRESS   METHOD
+  Host   all        all    0.0.0.0/0      md5

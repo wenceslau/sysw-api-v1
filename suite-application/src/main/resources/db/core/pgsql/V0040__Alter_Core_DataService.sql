@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_data_service ADD cod_sectors_data_task VARCHAR(200) NULL;

@@ -1,0 +1,12 @@
+Total memoria
+	grep MemTotal /proc/meminfo
+
+Memoria disp
+free -m
+
+
+para desativar polices no uso do comando ng no angular cli
+
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy RemoteSigned -Scope LocalMachine

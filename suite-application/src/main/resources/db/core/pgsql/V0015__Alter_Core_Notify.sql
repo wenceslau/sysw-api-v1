@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_notify ADD COLUMN val_type VARCHAR(45) NULL;

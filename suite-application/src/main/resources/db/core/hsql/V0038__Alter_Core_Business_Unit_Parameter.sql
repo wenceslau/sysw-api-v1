@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_business_unit_parameter ADD val_application VARCHAR(20) NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_business_unit ALTER COLUMN val_license TYPE VARCHAR(4000) USING(val_license::VARCHAR(4000));

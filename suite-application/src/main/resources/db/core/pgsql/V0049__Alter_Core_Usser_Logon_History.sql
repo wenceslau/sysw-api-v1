@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_user_logon_history ADD COLUMN cod_sector BIGINT NULL;

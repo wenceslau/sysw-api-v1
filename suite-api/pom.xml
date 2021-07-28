@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<name>suite-api</name>
+	<packaging>pom</packaging>
+	<version>4.0.0.2</version>
+	<groupId>com.suite</groupId>
+	<artifactId>suite-api</artifactId>
+	<description>Suite API Projects</description>
+
+	<modules>  <!--A ordem de declaracao dos modulos sempre deve ser a definida abaixo. Novos modulos devem estar sempre antes do suite-applicatio -->
+
+		<module>../suite-module-app</module>          		<!--Modulo APP eh a base da suite. Deve ser importado pelo modulo core da suite. Contem as config padrao do spring. Seu POM importa todas as dependencias usadas em toda a suite.-->
+		<module>../suite-module-core</module>         		<!--Modulo CORE da suite. Deve ser importado por todos os modulos da suite. Seu POM importa o modulo app e herda o uso de todas as dependencias declaradas la.-->
+		<module>../suite-module-job</module> 		  		<!--Modulo JOB. -->	
+
+		<module>../suite-application</module>      <!-- Projeto principal da suite, contem as classe main, app.properties e migration. Seu POM importa apenas modulos da Suite e o starter-web do Spring  -->
+
+	</modules>
+
+</project>

@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_permission ADD val_sequence_root INT NULL;

@@ -1,0 +1,1 @@
+EXEC sp_RENAME tb_core_parameter, tb_core_global_parameter

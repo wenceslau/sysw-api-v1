@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_property ALTER COLUMN val_property VARCHAR(2000) NOT NULL ;

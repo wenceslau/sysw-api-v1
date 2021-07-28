@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_business_unit DROP COLUMN val_applications;

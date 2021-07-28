@@ -1,0 +1,77 @@
+package com.suite.application;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import org.springframework.context.ApplicationContextInitializer;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.core.env.ConfigurableEnvironment;
+import org.springframework.core.env.EnumerablePropertySource;
+import org.springframework.core.env.MapPropertySource;
+import org.springframework.core.env.PropertySource;
+import org.springframework.stereotype.Component;
+
+import com.suite.security.cryptography.RSATransporter;
+
+@Component
+public class ContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
+
+	private RSATransporter rs = new RSATransporter();
+
+	@Override
+	public void initialize(ConfigurableApplicationContext applicationContext) {
+
+		ConfigurableEnvironment environment = applicationContext.getEnvironment();
+
+		for (PropertySource<?> propertySource : environment.getPropertySources()) {
+
+			Map<String, Object> propertyOverrides = new LinkedHashMap<>();
+			decodePasswords(propertySource, propertyOverrides);
+
+			if (!propertyOverrides.isEmpty()) {
+
+				PropertySource<?> decodedProperties = new MapPropertySource("decoded " + propertySource.getName(), propertyOverrides);
+				environment.getPropertySources().addBefore(propertySource.getName(), decodedProperties);
+
+			}
+
+		}
+
+	}
+
+	private void decodePasswords(PropertySource<?> source, Map<String, Object> propertyOverrides) {
+
+		if (source instanceof EnumerablePropertySource) {
+
+			EnumerablePropertySource<?> enumerablePropertySource = (EnumerablePropertySource<?>) source;
+
+			for (String key : enumerablePropertySource.getPropertyNames()) {
+
+				Object rawValue = source.getProperty(key);
+
+				if (rawValue instanceof String) {
+
+					String decodedValue = decodePasswordsInString(key, (String) rawValue);
+					propertyOverrides.put(key, decodedValue);
+
+				}
+
+			}
+
+		}
+
+	}
+
+	private String decodePasswordsInString(String key, String input) {
+
+		if (input == null)
+			return null;
+
+		if (key.contains("datasource.password"))
+			input = (rs.dencrypt(input));
+
+		return input;
+
+	}
+
+}

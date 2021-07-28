@@ -1,0 +1,1 @@
+ALTER TABLE tb_core_user_action ALTER COLUMN val_record TYPE TEXT, ALTER COLUMN val_record SET NOT NULL ;

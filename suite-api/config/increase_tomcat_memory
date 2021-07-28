@@ -1,0 +1,35 @@
+ON LINUX
+
+To increase the JVM memory allocation and thread stack size for Tomcat (Linux)
+Open the catalina.sh or startup.sh file (TomcatInstallDirectory/bin/catalina.sh).
+Add the following line:
+
+export JAVA_OPTS="-Xms1024M -Xmx6144M"
+export CATALINA_OPTS="-Xms1024M -Xmx6144M"
+
+After restart Check on file log [catalina.yyyy-MM-dd.log]
+
+22-Mar-2020 14:47:36.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms1024M
+22-Mar-2020 14:47:36.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx6144M
+___________________________________________________________________________________
+To restart Apache Tomcat on Linux/Solaris
+Navigate to tomcat_home/bin.
+Run the following command to stop Apache Tomcat:
+./shutdown.sh
+Run the following command to restart Apache Tomcat:
+./startup.sh 
+___________________________________________________________________________________
+
+ON WINDOWS 
+
+Open file .exe at tomcast directory 
+
+1 - C:\Program Files\Apache Software Foundation\Tomcat 8.5\bin\Tomcat8w.exe
+
+2 - Click the Java tab.
+
+3 - In the Maximum Memory Pool field, enter the amount of memory you want to allocate to Tomcat and click Apply.
+
+And restart the tomcat after!
+
+___________________________________________________________________________________
